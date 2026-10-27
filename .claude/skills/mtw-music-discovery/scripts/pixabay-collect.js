@@ -7,7 +7,7 @@
 //   mtwBrief(records)  -> one short line per record, to glance at through the tool (it returns ~1,000 characters)
 //   mtwShow(records)   -> replaces the page with the records as JSON between MTWJSON and MTWEND; read it with
 //                         get_page_text and save it as the run's records file
-//   await mtwSave(name, records, from)  -> posts to MTW Studio's /api/collected (port 8788), where Chrome allows a page to reach localhost
+//   await mtwSave(name, records, from)  -> posts to MTW Studio's /api/collected (port 8792), where Chrome allows a page to reach localhost
 // Pacing: one request at a time with a pause between. A tab that is not in front has its timers throttled to about
 // once a minute, so pauses run on a Worker timer. Pixabay answers 429 to rapid reads: mtwCollect waits and retries.
 // A javascript_tool call times out after about 45 s: start long work without awaiting it (results land on window) and
@@ -69,7 +69,7 @@
     document.body.appendChild(a);
     return records.length;
   };
-  window.mtwSave = async (name, records, from, port = 8788) => { // MTW Studio answers /api/collected
+  window.mtwSave = async (name, records, from, port = 8792) => { // MTW Studio answers /api/collected
     const res = await fetch(`http://localhost:${port}/api/collected`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ name, from, records }) });
     if (!res.ok) throw new Error(`save failed: ${res.status} ${await res.text()}`);
     return (await res.json()).file;
