@@ -5,7 +5,9 @@ description: Find new music for Matt to review and put it straight into the MTW 
 
 # MTW music discovery
 
-Read `discussion/spec.md` first ("Soundtrack library", "Music discovery"): it wins over this skill. The process and its current facts are in [wiki/site/music-discovery.md](../../../wiki/site/music-discovery.md); this skill holds the method. The library itself is the `mtw-soundtrack` skill's.
+For this public repository, begin with root AGENTS.md and docs/authoring.md. They define the current standalone paths and commands; dated website examples below remain craft references.
+
+Read `AGENTS.md` first ("Soundtrack library", "Music discovery"): it wins over this skill. The process and its current facts are in [docs/authoring.md#music-and-speech](../../../wiki/site/soundtrack-library.md); this skill holds the method. The library itself is the `mtw-soundtrack` skill's.
 
 **What it does.** Matt reviews music by listening, not by reading lists (Matt, 2026-10-02: "i need to scroll through and approve more songs"). A discovery run therefore ends with every pick **in the library**: credited, downloaded, profiled and marked `candidate`, so Studio's Soundtrack module plays it with its beat grid and frequency lane and one click approves it. Nothing a run adds is approved; only Matt's Approve button (or his words) approves a track.
 
@@ -29,7 +31,7 @@ Default size: 50 per request unless Matt says otherwise. A mixed request ("simil
 6. **Get the records out of the tab.** The browser tool returns only about 1,000 characters, and Chrome may hold a page's request to `localhost` behind a local-network permission prompt (do not grant browser permissions). Use `mtwShow(records)` and read them with `get_page_text`, then save them as `wiki/soundtrack-library/records/discovery-<date>-<slug>.json` (`{ name, saved, from, records }`). `mtwSave(name, records, from)` posts straight to Studio's `/api/collected` (default port 8792; pass another if Studio printed one) instead, where Chrome allows it.
 7. **Register:** `node .claude/skills/mtw-music-discovery/scripts/register-candidates.mjs --records <file> --run <date>-<slug> --label "<date>: <what it was>" --method <kind> [--basis <id>] [--request <id>] [--why <json>] [--ids <ordered picks>] [--queries "q1; q2"] [--read <n read>]`. It applies the filters again, downloads each audio file from Pixabay's CDN into `assets/` (never over an existing file), adds the candidates to `sources.json` with their full credit and a `discovery` block (run, rank, basis, why, Content ID, moods, length, popularity), records the run in `discovery.json` and closes the request. Try `--dry` first.
 8. **Profile and check:** `node .claude/skills/mtw-soundtrack/scripts/soundtrack.mjs build` (about 5 s a track), then `... check` until it prints no PROBLEM.
-9. **Show Matt:** open `http://127.0.0.1:8792/m/soundtrack` in MTW Studio with Status: Candidates and Found by: the run, play two or three, and give him the link. Record the run's counts in [wiki/site/music-discovery.md](../../../wiki/site/music-discovery.md).
+9. **Show Matt:** open `http://127.0.0.1:8792/m/soundtrack` in MTW Studio with Status: Candidates and Found by: the run, play two or three, and give him the link. Record the run's counts in [docs/authoring.md#music-and-speech](../../../wiki/site/soundtrack-library.md).
 
 ## Review in MTW Studio (what Matt does)
 
