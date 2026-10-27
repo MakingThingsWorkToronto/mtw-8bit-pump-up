@@ -1,0 +1,186 @@
+/* ---------- Beat Comic ----------
+   src/components/BeatComic.astro with public/scripts/beat-comic.js (skill: mtw-beat-comic): an old-school comic fused into the pixel grid,
+   drawn flat in the brand (Matt, 2026-09-26: no glass in the motion, flat animations, brand and logo). Colours are the
+   site tokens only: ink #0b1419, panel #112126, teal, teal-light, paper, and the teal band ground. Comic grammar:
+   brand-teal panel borders, flat hard offset shadows, teal narration boxes, flat jagged SFX slabs with linear speed
+   lines. No radial gradients, masks or motion anywhere (Matt, 2026-09-26). A fixed stage under the site header (z 70),
+   hidden unless html[data-reel] is set before first paint (motion allowed, not ?reel=off). */
+
+.reel { display: none; }
+html[data-reel] .reel {
+  --rl-ink: #0b1419;
+  --rl-panel: #112126;
+  --rl-teal-ground: color-mix(in oklab, var(--teal) 58%, #0b1419);
+  --rl-top: calc(var(--header-h) + clamp(18px, 3.2vh, 36px));
+  --rl-bottom: clamp(70px, 9vh, 90px);
+  --rl-pad-x: var(--page-gutter);
+  --rl-gutter: clamp(14px, 1.6vw, 24px);
+  --rl-line: 3px;
+  display: block; position: fixed; inset: 0; z-index: 60; overflow: hidden;
+  background: var(--rl-ink); color: var(--paper);
+  contain: strict; isolation: isolate;
+}
+@media (min-width: 1601px) { html[data-reel] .reel { --rl-pad-x: calc((100vw - var(--page-frame-max)) / 2 + var(--page-frame-max) * .05); } }
+html[data-reel] { overflow: hidden; scrollbar-gutter: stable; }
+html[data-reel="done"] { overflow: visible; }
+html[data-reel="done"] .reel { display: none; }
+
+.rl-ground { position: absolute; inset: 0; background: var(--rl-ink); }
+.reel[data-ground="teal"] .rl-ground { background: var(--rl-teal-ground); }
+.rl-back, .rl-front { position: absolute; inset: 0; width: 100%; height: 100%; display: block; pointer-events: none; }
+.rl-scenes { position: absolute; inset: 0; }
+.rl-front { z-index: 3; }
+
+/* ---------- The book: pages of panels inside the safe area ---------- */
+.rl-book { position: absolute; top: var(--rl-top); bottom: var(--rl-bottom); left: var(--rl-pad-x); right: var(--rl-pad-x); }
+.rl-page { position: absolute; inset: 0; visibility: hidden; will-change: transform; }
+.rl-page.is-live { visibility: visible; }
+.rl-panel {
+  position: absolute; opacity: 0; will-change: opacity, transform;
+  left: calc(var(--x) * 100% + var(--rl-gutter) / 2); top: calc(var(--y) * 100% + var(--rl-gutter) / 2);
+  width: calc(var(--w) * 100% - var(--rl-gutter)); height: calc(var(--h) * 100% - var(--rl-gutter));
+}
+.rl-panel__art { position: absolute; inset: 0; overflow: hidden; background: var(--rl-panel); box-shadow: 7px 7px 0 var(--teal); }
+.reel[data-ground="teal"] .rl-panel__art { box-shadow: 7px 7px 0 var(--rl-ink); }
+.rl-panel__art canvas { position: absolute; inset: 0; width: 100%; height: 100%; image-rendering: pixelated; }
+/* The grid the pixels sit on: thin ink lines on the pixel pitch. */
+.rl-panel__art::after {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background:
+    repeating-linear-gradient(90deg, #0b141980 0 1px, transparent 1px var(--px, 8px)),
+    repeating-linear-gradient(180deg, #0b141980 0 1px, transparent 1px var(--px, 8px));
+}
+.rl-ink { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+.rl-ink rect { fill: none; stroke: var(--teal); stroke-width: var(--rl-line); vector-effect: non-scaling-stroke; }
+
+/* Narration: flat teal boxes with ink type, the old comic's caption. */
+.rl-cap { position: absolute; left: -6px; top: -6px; max-width: min(92%, 440px); padding: 8px 12px 9px; background: var(--teal-light); color: var(--rl-ink); border: 2px solid var(--rl-ink); box-shadow: 4px 4px 0 var(--rl-ink); font-family: var(--display); font-weight: 700; text-transform: uppercase; font-size: clamp(15px, 1.35vw, 22px); line-height: 1.06; letter-spacing: .01em; opacity: 0; transform-origin: 0 0; }
+.rl-cap--2 { left: auto; top: auto; right: -6px; bottom: -6px; background: var(--paper); font-size: clamp(22px, 2.2vw, 36px); }
+.rl-cap .rl-ch { opacity: 0; }
+.rl-cap .rl-ch.is-on { opacity: 1; }
+.rl-name { position: absolute; left: 0; right: 0; bottom: 0; padding: 6px 10px; background: var(--rl-ink); font-family: var(--display); font-weight: 700; text-transform: uppercase; font-size: clamp(13px, 1.15vw, 19px); line-height: 1; opacity: 0; }
+.rl-tag-group { position: absolute; left: 0; top: 0; padding: 4px 8px; background: var(--teal); color: var(--rl-ink); font-family: var(--display); font-weight: 700; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; opacity: 0; }
+
+/* The ways in: real links over the service cells (Matt, 2026-09-28), outside the aria-hidden scenes, laid out as the
+   book (the same box and panel geometry; beat-comic.js sets each link's --x/--y/--w/--h from its panel and moves the page
+   layer with the page's camera). The layer takes no pointer, so the stage's click or tap for sound still lands anywhere
+   else; a link takes one only while its panel shows (.is-on). Its text is the service name, invisible over the cell's own
+   name bar until hover or focus lights that bar teal-light with ink type and inks the frame teal-light: flat, no glass. */
+.rl-links { position: absolute; z-index: 3; top: var(--rl-top); bottom: var(--rl-bottom); left: var(--rl-pad-x); right: var(--rl-pad-x); pointer-events: none; }
+.rl-links__page { position: absolute; inset: 0; }
+.rl-link {
+  position: absolute; visibility: hidden; pointer-events: none; cursor: pointer; color: transparent; text-decoration: none; -webkit-tap-highlight-color: transparent;
+  left: calc(var(--x) * 100% + var(--rl-gutter) / 2); top: calc(var(--y) * 100% + var(--rl-gutter) / 2);
+  width: calc(var(--w) * 100% - var(--rl-gutter)); height: calc(var(--h) * 100% - var(--rl-gutter));
+}
+.rl-link.is-on { visibility: visible; pointer-events: auto; }
+.rl-link span { position: absolute; left: 0; right: 0; bottom: 0; padding: 6px 10px; font-family: var(--display); font-weight: 700; text-transform: uppercase; font-size: clamp(13px, 1.15vw, 19px); line-height: 1; }
+.rl-link:hover, .rl-link:focus-visible { box-shadow: inset 0 0 0 var(--rl-line) var(--teal-light); }
+.rl-link:hover span, .rl-link:focus-visible span { background: var(--teal-light); color: var(--rl-ink); }
+.rl-link:focus-visible { outline: 2px solid var(--teal); outline-offset: 3px; }
+/* A linked image panel without a name bar (the "Your turn." starting points): the link covers the panel and is named
+   by its caption, which stays the panel's own; hover or focus inks the frame teal-light and turns the caption box paper. */
+.rl-link--cap span { left: 0; right: auto; bottom: auto; top: 0; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.rl-panel.is-hot .rl-cap { background: var(--paper); }
+/* A tracklist row's link (Panel.tracks, the homepage cover): the engine lays it over its row in px and paints the lit
+   row itself (paper, ink type) on hover or focus, so the link only carries the pointer, the name and the focus ring. */
+.rl-link--row span { left: 0; right: auto; bottom: auto; top: 0; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.rl-link--row:hover, .rl-link--row:focus-visible { box-shadow: none; }
+.rl-link--row:focus-visible { outline-offset: 1px; }
+.reel.is-collapsing .rl-links { display: none; }
+
+/* The MTW corner box, like an old comic's publisher box. */
+.rl-corner { position: absolute; left: var(--rl-pad-x); bottom: clamp(14px, 2.4vh, 26px); z-index: 2; display: flex; align-items: center; gap: 8px; padding: 6px 10px 6px 8px; background: var(--paper); color: var(--rl-ink); border: 2px solid var(--rl-ink); box-shadow: 4px 4px 0 var(--teal); font-family: var(--display); font-weight: 700; font-size: 14px; line-height: 1; text-transform: uppercase; opacity: 0; }
+.rl-corner svg { width: 18px; height: 24px; }
+
+/* SFX slabs sit above the cut tiles (z 4 over the front canvas's 3), so a slam on a chapter's last beat carries across
+   the cut before it explodes into pixels on the front canvas. SFX slabs are pixel sprites (beat-comic.js drawSfx): drawn small in the flat brand
+   palette and shown large with pixelated scaling, so they resolve in steps like the panels. */
+/* Chapter cards stay crisp flat type (Matt, 2026-09-26: the pixelated label "looks like bad retro"): a teal banner
+   strip and a slammed title with an outlined echo, flashed for one beat. */
+.rl-title { position: absolute; left: 0; right: 0; top: 50%; z-index: 2; transform: translateY(-50%); pointer-events: none; opacity: 0; background: var(--teal); padding: clamp(10px, 2vh, 24px) var(--rl-pad-x); border-block: var(--rl-line) solid var(--rl-ink); }
+.rl-title p { white-space: nowrap; font-family: var(--display); font-weight: 700; text-transform: uppercase; letter-spacing: -.02em; line-height: .82; font-size: clamp(90px, 15vw, 260px); color: var(--paper); -webkit-text-stroke: 3px var(--rl-ink); paint-order: stroke fill; text-shadow: .04em .04em 0 var(--rl-ink); }
+.rl-title p + p { position: absolute; left: var(--rl-pad-x); top: clamp(10px, 2vh, 24px); color: transparent; -webkit-text-stroke: 2px var(--rl-ink); text-shadow: none; opacity: .5; }
+.rl-sfx canvas { display: block; image-rendering: pixelated; }
+.rl-sfx { position: absolute; z-index: 4; opacity: 0; transform-origin: 50% 50%; pointer-events: none; }
+
+/* Close: the static hero's layout (index.astro .home-hero), flat. */
+.rl-close { position: absolute; inset: 0; display: flex; align-items: center; padding: var(--page-start) var(--rl-pad-x) calc(var(--page-start) - var(--header-h)); visibility: hidden; }
+.rl-close.is-live { visibility: visible; }
+.rl-close__grid { width: 100%; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); align-items: center; gap: 48px; }
+.rl-hero-h { font-family: var(--display); font-weight: 600; letter-spacing: -.015em; line-height: .88; font-size: clamp(76px, 8.2vw, 134px); opacity: 0; }
+.rl-close__panel { justify-self: end; width: 370px; max-width: 100%; padding: 28px; background: var(--rl-panel); border: 1px solid #b4d5d52c; border-radius: var(--glass-radius); opacity: 0; }
+.rl-close__h3 { font-family: var(--display); font-weight: 600; font-size: 34px; line-height: .96; margin-bottom: 18px; }
+.rl-close__panel p:last-child { font-size: 14px; color: #d0d9db; }
+/* A hero with a lede and an image (overview pages): the lede under the heading, the image on the right. */
+.rl-hero-h { position: relative; }
+.rl-hero-h.is-px { color: transparent !important; }
+.rl-hero-px { position: absolute; left: 0; top: 0; image-rendering: pixelated; pointer-events: none; }
+.rl-close__lede { margin-top: 26px; max-width: 670px; font-size: 20px; color: var(--muted); opacity: 0; }
+.rl-close__art { justify-self: end; margin: 0; opacity: 0; }
+.rl-close__art img { width: min(46vw, 640px); height: auto; mix-blend-mode: screen; }
+.rl-hero-h.is-px * { color: transparent !important; }
+/* A full-bleed close (closeScene.layout 'full-bleed': a Journal entry, About Matt): the page hero's image edge to edge
+   under the header, with the page hero's own ink gradient (from the left; from the bottom on a phone) and its crop (the
+   engine copies the page image's object-position), and one flowing heading, as the page's h1 sets it, over it. The
+   engine puts the text block in the page title's place and gives the heading and lede the page's sizes; the values below
+   are the fallback. No blend: the cover is a photograph, not a hologram. */
+.rl-close__bleed { position: absolute; top: var(--header-h, 64px); right: 0; bottom: 0; left: 0; z-index: 0; margin: 0; opacity: 0; }
+.rl-close__bleed img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 70% center; }
+.rl-close__bleed::after { content: ''; position: absolute; inset: 0;
+  background: linear-gradient(90deg, var(--ink) 0%, rgba(16,22,25,.82) 32%, rgba(16,22,25,.15) 62%, transparent 80%), linear-gradient(0deg, var(--ink) 0%, transparent 22%); }
+.rl-close--bleed .rl-close__grid { position: relative; z-index: 1; display: block; max-width: 640px; }
+.rl-close--bleed .rl-hero-h { font-size: clamp(52px, 5.6vw, 88px); line-height: .98; }
+
+
+
+/* High Scores: a flat arcade board on the held ending; every row is a link to a service page. */
+.rl-scores { position: absolute; z-index: 6; right: var(--rl-pad-x); top: 40%; width: min(560px, 44vw); padding: 20px 22px 16px; font-family: var(--display); text-transform: uppercase; opacity: 0; transform: translateY(12px); transition: opacity .4s ease-out, transform .5s var(--ease); }
+.rl-scores.is-on { opacity: 1; transform: none; }
+/* 8-bit: the board is painted as a pixel sprite behind real links whose own text is invisible (Matt, 2026-09-26). */
+.rl-scores__px { position: absolute; left: 0; top: 0; z-index: 0; pointer-events: none; image-rendering: pixelated; }
+.rl-scores > :not(canvas) { position: relative; z-index: 1; color: transparent !important; }
+.rl-scores .rl-scores__list a, .rl-scores .rl-scores__list a * { color: transparent !important; background: none !important; animation: none !important; }
+.rl-scores .rl-scores__list a:focus-visible { outline: 2px solid var(--paper); outline-offset: 2px; }
+.rl-scores .rl-scores__foot { animation: none; }
+.rl-scores__h { margin: 0 0 12px; font-weight: 700; font-size: 34px; line-height: 1; letter-spacing: .06em; color: var(--teal-light); text-align: center; }
+.rl-scores__list { margin: 0; padding: 0; list-style: none; }
+.rl-scores__list a { display: grid; grid-template-columns: 3em 8.4ch 1fr; align-items: baseline; gap: 14px; padding: 7px 8px; color: var(--paper); text-decoration: none; font-weight: 700; font-size: 22px; line-height: 1.1; }
+.rl-scores__rank { color: var(--muted); }
+.rl-scores__num { font-variant-numeric: tabular-nums; letter-spacing: .04em; color: var(--teal-light); }
+.rl-scores__who b { display: block; font-weight: 700; }
+.rl-scores__who { min-width: 0; }
+.rl-scores__who b, .rl-scores__who small { white-space: nowrap; overflow: hidden; }
+.rl-scores__who small { display: block; margin-top: 2px; font-weight: 700; font-size: 15px; letter-spacing: .02em; text-transform: uppercase; color: var(--muted); }
+.rl-scores__list a:hover, .rl-scores__list a:focus-visible { background: var(--teal-light); color: var(--rl-ink); outline: none; }
+.rl-scores__list a:hover *, .rl-scores__list a:focus-visible * { color: var(--rl-ink); }
+.rl-scores__list li.is-up a { animation: rl-up .6s steps(3, end); }
+@keyframes rl-up { 0%, 66% { background: var(--teal); } 100% { background: transparent; } }
+.rl-scores__foot { margin: 10px 0 0; font-weight: 700; font-size: 17px; letter-spacing: .08em; color: var(--paper); text-align: center; animation: rl-blink 1.2s steps(2, end) infinite; }
+@keyframes rl-blink { 50% { opacity: 0; } }
+.rl-progress.motion-progress { bottom: 0; }
+
+.reel.is-collapsing { contain: none; background: transparent; pointer-events: none; }
+/* The toolbar's own styles: motion-toolbar.css. Pause/Play and Skip Intro leave with the stage. */
+.reel.is-collapsing .rl-skip, .reel.is-collapsing .rl-pause, .reel.is-collapsing .rl-progress { opacity: 0; transition: opacity .2s; }
+
+@media (max-width: 850px) {
+  html[data-reel] .reel { --rl-gutter: 10px; --rl-bottom: 66px; --rl-line: 2px; }
+  .rl-panel__art { box-shadow: 4px 4px 0 var(--teal); }
+  .rl-cap { left: -3px; top: -3px; padding: 5px 7px; font-size: 13px; max-width: 96%; box-shadow: 3px 3px 0 var(--rl-ink); }
+  .rl-cap--2 { right: -3px; bottom: -3px; left: auto; top: auto; font-size: 18px; }
+  .rl-name, .rl-link span { font-size: 11px; padding: 3px 5px; }
+  .rl-tag-group, .rl-corner { display: none; }
+  .rl-close__grid { grid-template-columns: 1fr; gap: 32px; }
+  .rl-hero-h { font-size: 65px; }
+  .rl-close__panel { justify-self: start; }
+  .rl-close__bleed::after { background: linear-gradient(180deg, rgba(16,22,25,.1) 0%, rgba(16,22,25,.55) 45%, var(--ink) 88%); }
+  .rl-close--bleed .rl-hero-h { font-size: 52px; }
+  .rl-scores { left: var(--rl-pad-x); right: var(--rl-pad-x); width: auto; padding: 12px 12px 10px; box-shadow: 4px 4px 0 var(--teal); }
+  .rl-scores__h { font-size: 24px; margin-bottom: 6px; }
+  .rl-scores__list a { font-size: 17px; gap: 8px; padding: 5px 4px; grid-template-columns: 2.6em 8.4ch 1fr; }
+  .rl-scores__who small { font-size: 13px; }
+  .rl-scores__foot { font-size: 14px; margin-top: 6px; }
+  .rl-title p { font-size: clamp(60px, 20vw, 110px); -webkit-text-stroke-width: 2px; }
+}
+@media (prefers-reduced-motion: reduce) { html[data-reel] .reel { display: none; } html[data-reel] { overflow: visible; } }

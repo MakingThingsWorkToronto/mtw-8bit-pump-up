@@ -1,0 +1,4 @@
+interface:
+  display_name: "MTW Music Discovery"
+  short_description: "Find songs for Matt's review and add them to the soundtrack library as candidates"
+  default_prompt: "Use $mtw-music-discovery to answer the open Find similar requests (or Matt's request) with candidates in the soundtrack library. Read discussion/spec.md in full first."

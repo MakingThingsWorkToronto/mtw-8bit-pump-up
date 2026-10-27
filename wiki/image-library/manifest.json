@@ -1,0 +1,1186 @@
+{
+  "schemaVersion": 1,
+  "name": "Experiment image library",
+  "records": [
+    {
+      "id": "source-overview-cards-card-second-brain",
+      "logicalId": "card-second-brain",
+      "collection": "originals",
+      "title": "card-second-brain",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-second-brain.png",
+          "sha256": "09005fbd489c250a48234d6585a76c63d94b138658d43884a1f3a71e0a182217",
+          "status": "retained-source",
+          "bytes": 1601214,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-roles-access-control",
+      "logicalId": "card-roles-access-control",
+      "collection": "originals",
+      "title": "card-roles-access-control",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-roles-access-control.png",
+          "sha256": "96990a2286c7c84874a7ccfc981284fd46f6d3a6eb40a52fa19ebb54d3afba38",
+          "status": "retained-source",
+          "bytes": 1591848,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-m365-migrations",
+      "logicalId": "card-m365-migrations",
+      "collection": "originals",
+      "title": "card-m365-migrations",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-m365-migrations.png",
+          "sha256": "749e86764598032ed25c9701c5b64991f8557abb0449b057c74977d3e216aba6",
+          "status": "retained-source",
+          "bytes": 1586214,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-information-governance",
+      "logicalId": "card-information-governance",
+      "collection": "originals",
+      "title": "card-information-governance",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-information-governance.png",
+          "sha256": "6b155add746bc5b7d55f97dec5a386e3ee1c7294c3848408f2d3be52760c28f0",
+          "status": "retained-source",
+          "bytes": 1762620,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-power-platform-logic-apps",
+      "logicalId": "card-power-platform-logic-apps",
+      "collection": "originals",
+      "title": "card-power-platform-logic-apps",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-power-platform-logic-apps.png",
+          "sha256": "e7097d35147108c65e32bcb38d10633a6926382b0b13fd2156b9b736c5407966",
+          "status": "retained-source",
+          "bytes": 1746519,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-roadmaps-cloud-planning",
+      "logicalId": "card-roadmaps-cloud-planning",
+      "collection": "originals",
+      "title": "card-roadmaps-cloud-planning",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-roadmaps-cloud-planning.png",
+          "sha256": "b3ce3da48f55cdc11c3acde5f438f18ec7df87773579784b08a519f07e497bb7",
+          "status": "retained-source",
+          "bytes": 1660378,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-starting-points-starting-point-custom-agents",
+      "logicalId": "starting-point-custom-agents",
+      "collection": "originals",
+      "title": "starting-point-custom-agents",
+      "description": "Original source image used by the starting-points visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/starting-points/starting-point-custom-agents.png",
+          "sha256": "b59ff636ec898f2d9f5c19857a86039c391d3fee0407bf327d955b3f0a7010a8",
+          "status": "retained-source",
+          "bytes": 1823569,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-starting-points-starting-point-m365-ai",
+      "logicalId": "starting-point-m365-ai",
+      "collection": "originals",
+      "title": "starting-point-m365-ai",
+      "description": "Original source image used by the starting-points visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/starting-points/starting-point-m365-ai.png",
+          "sha256": "0a78827016eaeb5f9e60a876862c9fc2a85b80e45fc0d93fbea3c4a569ea9903",
+          "status": "retained-source",
+          "bytes": 1472170,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-starting-points-starting-point-rework",
+      "logicalId": "starting-point-rework",
+      "collection": "originals",
+      "title": "starting-point-rework",
+      "description": "Original source image used by the starting-points visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/starting-points/starting-point-rework.png",
+          "sha256": "ecf85f9cdf1189f0758b4646992abdfd3d108b23b5cdca8b0af541c40599f6c0",
+          "status": "retained-source",
+          "bytes": 1674741,
+          "width": 1672,
+          "height": 940,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-starting-points-starting-point-cloud-security",
+      "logicalId": "starting-point-cloud-security",
+      "collection": "originals",
+      "title": "starting-point-cloud-security",
+      "description": "Original source image used by the starting-points visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/starting-points/starting-point-cloud-security.png",
+          "sha256": "876ec13b558198613d23049b7ced0e81e5ce08a15913cec58d8b7cd643b788bd",
+          "status": "retained-source",
+          "bytes": 1660824,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-portrait-matt-scene",
+      "logicalId": "matt-scene",
+      "collection": "originals",
+      "title": "matt-scene",
+      "description": "Original source image used by the portrait visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/portrait/matt-scene.png",
+          "sha256": "5bab7aa3b901f55f80e608edbda48629257f936dcb00d7d4ee9656e004a86006",
+          "status": "retained-source",
+          "bytes": 1940395,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-agent-ready-websites",
+      "logicalId": "card-agent-ready-websites",
+      "collection": "originals",
+      "title": "card-agent-ready-websites",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-agent-ready-websites.png",
+          "sha256": "5cad9f4d1834411df36097326e7cd2b4209d3dd71b234c6373bc86126948f814",
+          "status": "retained-source",
+          "bytes": 1418288,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-custom-software-development",
+      "logicalId": "card-custom-software-development",
+      "collection": "originals",
+      "title": "card-custom-software-development",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-custom-software-development.png",
+          "sha256": "f8bef01f635ccbb7971baef9d032515537061d999875bbf70e21841b63fdf922",
+          "status": "retained-source",
+          "bytes": 1708058,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-team-modernization",
+      "logicalId": "card-team-modernization",
+      "collection": "originals",
+      "title": "card-team-modernization",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-team-modernization.png",
+          "sha256": "20e9fe0b14e75e724d35595159abdf33d2ba21bd3690c6c06303fd4d222bd23d",
+          "status": "retained-source",
+          "bytes": 1726050,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-cost-planning",
+      "logicalId": "card-cost-planning",
+      "collection": "originals",
+      "title": "card-cost-planning",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-cost-planning.png",
+          "sha256": "fa4c6da867fdcc73199dd02b7314ff643e8539aea700103849ba3f07f4f9e6b9",
+          "status": "retained-source",
+          "bytes": 1644099,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-devops-scaling",
+      "logicalId": "card-devops-scaling",
+      "collection": "originals",
+      "title": "card-devops-scaling",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-devops-scaling.png",
+          "sha256": "d9dcd68924a7680296ad838c3ce6f97cc277fab9dea0cd3cff40cd81b5d336f4",
+          "status": "retained-source",
+          "bytes": 1717385,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-agent-ready-websites",
+      "logicalId": "agent-ready-websites",
+      "collection": "originals",
+      "title": "agent-ready-websites",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/agent-ready-websites.png",
+          "sha256": "8337490220344041b0b00dc409cd464dd9d25d942933d17a924355181edce80d",
+          "status": "retained-source",
+          "bytes": 1698381,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-agentic-systems-agents",
+      "logicalId": "agentic-systems-agents",
+      "collection": "originals",
+      "title": "agentic-systems-agents",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/agentic-systems-agents.png",
+          "sha256": "5661b064587e6f864cb2e5ed6a3aa961ec2b9a1f40cde6144e45472f9459f705",
+          "status": "retained-source",
+          "bytes": 1977480,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-azure-migrations",
+      "logicalId": "card-azure-migrations",
+      "collection": "originals",
+      "title": "card-azure-migrations",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-azure-migrations.png",
+          "sha256": "f87ae228f3763f1366090c7f459e9053b42f5c6c06672d86cafa1ded52631966",
+          "status": "retained-source",
+          "bytes": 1647142,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-azure-migrations",
+      "logicalId": "azure-migrations",
+      "collection": "originals",
+      "title": "azure-migrations",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/azure-migrations.png",
+          "sha256": "9300d37f425c1718092b941cdc541dbc7c7cf45935ef50bfc2d4e9cd41d967a5",
+          "status": "retained-source",
+          "bytes": 1877341,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-cost-planning",
+      "logicalId": "cost-planning",
+      "collection": "originals",
+      "title": "cost-planning",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/cost-planning.png",
+          "sha256": "a3a83852acef4864886447e160e80b162e193cec781406bd49fbcefde67600d7",
+          "status": "retained-source",
+          "bytes": 1722703,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-intranet-collaboration",
+      "logicalId": "card-intranet-collaboration",
+      "collection": "originals",
+      "title": "card-intranet-collaboration",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-intranet-collaboration.png",
+          "sha256": "f203103264285f111d2ad9a65de6101284ccb87f39fcdb3f5ce3f9bf1b453167",
+          "status": "retained-source",
+          "bytes": 1783918,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-custom-software-development",
+      "logicalId": "custom-software-development",
+      "collection": "originals",
+      "title": "custom-software-development",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/custom-software-development.png",
+          "sha256": "a27b00b9ad2bfea2a895a4dde5f2a41d315f7f34857d35b8b9fbd6a9bd29a7ff",
+          "status": "retained-source",
+          "bytes": 1733401,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-overview-cards-card-migration-planning",
+      "logicalId": "card-migration-planning",
+      "collection": "originals",
+      "title": "card-migration-planning",
+      "description": "Original source image used by the overview-cards visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/overview-cards/card-migration-planning.png",
+          "sha256": "4b7887223ea01e8dc9bf34a1463859dce285ab28e602008d5b8aefad46eb9802",
+          "status": "retained-source",
+          "bytes": 1773257,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-data-migrations-flow",
+      "logicalId": "data-migrations-flow",
+      "collection": "originals",
+      "title": "data-migrations-flow",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/data-migrations-flow.png",
+          "sha256": "e794cc2ab6dfda376de3422b447b09f683c33e1479067ad5ecbf34acd6951eb8",
+          "status": "retained-source",
+          "bytes": 1916741,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-devops-scaling",
+      "logicalId": "devops-scaling",
+      "collection": "originals",
+      "title": "devops-scaling",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/devops-scaling.png",
+          "sha256": "d446d80f2ce3496b40ce9e2ed33e364ca3608cfb1994a82ae2ee8d834e3793fe",
+          "status": "retained-source",
+          "bytes": 1634497,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-information-governance",
+      "logicalId": "information-governance",
+      "collection": "originals",
+      "title": "information-governance",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/information-governance.png",
+          "sha256": "53a119b0836d7f70c24c2ed20dc97494a324a15513be9e1a540e75cd65384d46",
+          "status": "retained-source",
+          "bytes": 1673215,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-intranet-collaboration",
+      "logicalId": "intranet-collaboration",
+      "collection": "originals",
+      "title": "intranet-collaboration",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/intranet-collaboration.png",
+          "sha256": "b0bbabfdc761582a103664dd294cc6c4ae79bc01b0719d1615321c9e299ad7a3",
+          "status": "retained-source",
+          "bytes": 1449267,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-journal-working-code-v8",
+      "logicalId": "working-code-v8",
+      "collection": "originals",
+      "title": "working-code-v8",
+      "description": "Original source image used by the journal visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/journal/working-code-v8.png",
+          "sha256": "8c6be8e568cc3db7064f4bf9b31934452b1198060618e0d7f0119c77bac6eb29",
+          "status": "retained-source",
+          "bytes": 1508585,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-journal-working-code-v9",
+      "logicalId": "working-code-v9",
+      "collection": "originals",
+      "title": "working-code-v9",
+      "description": "Original source image used by the journal visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/journal/working-code-v9.png",
+          "sha256": "789656561011f4dd54a10d3e42ca2787dd7d90ec424c422460e725281d381cd0",
+          "status": "retained-source",
+          "bytes": 1966060,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-journal-agents-build-tools-v2",
+      "logicalId": "agents-build-tools-v2",
+      "collection": "originals",
+      "title": "agents-build-tools-v2",
+      "description": "Original source image used by the journal visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/journal/agents-build-tools-v2.png",
+          "sha256": "bd00eb6e16a0815cfe9cf3db04200965d0d2f2de9e532d2678204b9a818ca7f5",
+          "status": "retained-source",
+          "bytes": 1504615,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-journal-document-rubric-v1",
+      "logicalId": "document-rubric-v1",
+      "collection": "originals",
+      "title": "document-rubric-v1",
+      "description": "Original source image used by the journal visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/journal/document-rubric-v1.png",
+          "sha256": "be4b7c8a63514ce1f0c185726faca3b023433f3f843033d2d73df08cf9a2e131",
+          "status": "retained-source",
+          "bytes": 1583954,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-journal-second-brain-owner-v2",
+      "logicalId": "second-brain-owner-v2",
+      "collection": "originals",
+      "title": "second-brain-owner-v2",
+      "description": "Original source image used by the journal visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/journal/second-brain-owner-v2.png",
+          "sha256": "df3899a8292f40b8c12c6488ac7fa094855a398167fea5cce5d742d877c85f1e",
+          "status": "retained-source",
+          "bytes": 1527049,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-m365-migrations",
+      "logicalId": "m365-migrations",
+      "collection": "originals",
+      "title": "m365-migrations",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/m365-migrations.png",
+          "sha256": "0516d0182d3ec15e011a3238aa3f013ab7454db49c412c4f502cb4681dce6325",
+          "status": "retained-source",
+          "bytes": 2007287,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-migration-planning",
+      "logicalId": "migration-planning",
+      "collection": "originals",
+      "title": "migration-planning",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/migration-planning.png",
+          "sha256": "4cfbd51895e83ed7f344fad0b31b81e668cc80a5f528b35ec856366ebe5fa078",
+          "status": "retained-source",
+          "bytes": 1704090,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-power-platform-logic-apps",
+      "logicalId": "power-platform-logic-apps",
+      "collection": "originals",
+      "title": "power-platform-logic-apps",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/power-platform-logic-apps.png",
+          "sha256": "e83f754d5106ca715b5a8e2ae4e2db19de077c24c22638af4e611db204b23185",
+          "status": "retained-source",
+          "bytes": 1612249,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-roadmaps-cloud-planning",
+      "logicalId": "roadmaps-cloud-planning",
+      "collection": "originals",
+      "title": "roadmaps-cloud-planning",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/roadmaps-cloud-planning.png",
+          "sha256": "c141dda744a6351fb0beab64239b58e88ba609193f6cddffeb64c21acde7b299",
+          "status": "retained-source",
+          "bytes": 1515213,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-roles-access-control",
+      "logicalId": "roles-access-control",
+      "collection": "originals",
+      "title": "roles-access-control",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/roles-access-control.png",
+          "sha256": "1544015385a7e1269aec9a89a48b16e526c337df8361fc9c13ab5240b84d7c12",
+          "status": "retained-source",
+          "bytes": 1822979,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-second-brain-translucent-cortex",
+      "logicalId": "second-brain-translucent-cortex",
+      "collection": "originals",
+      "title": "second-brain-translucent-cortex",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/second-brain-translucent-cortex.png",
+          "sha256": "3a8587fdb8f7bb7c80618c435222ea1adef61ce3b657cf83b76373a4ce554bc6",
+          "status": "retained-source",
+          "bytes": 2169682,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-team-modernization-team",
+      "logicalId": "team-modernization-team",
+      "collection": "originals",
+      "title": "team-modernization-team",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/team-modernization-team.png",
+          "sha256": "22cb92a51719cd9d426049814a731f59f41b29a63e00e21e8a5111811119570c",
+          "status": "retained-source",
+          "bytes": 1745179,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    },
+    {
+      "id": "source-service-hero-traditional-systems-shield",
+      "logicalId": "traditional-systems-shield",
+      "collection": "originals",
+      "title": "traditional-systems-shield",
+      "description": "Original source image used by the service-hero visualization.",
+      "service": "Experiments",
+      "category": "8-bit pump up",
+      "treatments": {
+        "original": {
+          "path": "assets/originals/service-hero/traditional-systems-shield.png",
+          "sha256": "39d9963f4c089ccccc4b6fa1142791854fdae5197198cb3f337e0e744eb31ab9",
+          "status": "retained-source",
+          "bytes": 1782257,
+          "width": 1672,
+          "height": 941,
+          "format": "PNG",
+          "mode": "RGB"
+        }
+      }
+    }
+  ],
+  "files": [
+    {
+      "destination": "assets/originals/journal/agents-build-tools-v2.png",
+      "sha256": "bd00eb6e16a0815cfe9cf3db04200965d0d2f2de9e532d2678204b9a818ca7f5",
+      "bytes": 1504615,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/journal/document-rubric-v1.png",
+      "sha256": "be4b7c8a63514ce1f0c185726faca3b023433f3f843033d2d73df08cf9a2e131",
+      "bytes": 1583954,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/journal/second-brain-owner-v2.png",
+      "sha256": "df3899a8292f40b8c12c6488ac7fa094855a398167fea5cce5d742d877c85f1e",
+      "bytes": 1527049,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/journal/working-code-v8.png",
+      "sha256": "8c6be8e568cc3db7064f4bf9b31934452b1198060618e0d7f0119c77bac6eb29",
+      "bytes": 1508585,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/journal/working-code-v9.png",
+      "sha256": "789656561011f4dd54a10d3e42ca2787dd7d90ec424c422460e725281d381cd0",
+      "bytes": 1966060,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-agent-ready-websites.png",
+      "sha256": "5cad9f4d1834411df36097326e7cd2b4209d3dd71b234c6373bc86126948f814",
+      "bytes": 1418288,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-azure-migrations.png",
+      "sha256": "f87ae228f3763f1366090c7f459e9053b42f5c6c06672d86cafa1ded52631966",
+      "bytes": 1647142,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-cost-planning.png",
+      "sha256": "fa4c6da867fdcc73199dd02b7314ff643e8539aea700103849ba3f07f4f9e6b9",
+      "bytes": 1644099,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-custom-software-development.png",
+      "sha256": "f8bef01f635ccbb7971baef9d032515537061d999875bbf70e21841b63fdf922",
+      "bytes": 1708058,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-devops-scaling.png",
+      "sha256": "d9dcd68924a7680296ad838c3ce6f97cc277fab9dea0cd3cff40cd81b5d336f4",
+      "bytes": 1717385,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-information-governance.png",
+      "sha256": "6b155add746bc5b7d55f97dec5a386e3ee1c7294c3848408f2d3be52760c28f0",
+      "bytes": 1762620,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-intranet-collaboration.png",
+      "sha256": "f203103264285f111d2ad9a65de6101284ccb87f39fcdb3f5ce3f9bf1b453167",
+      "bytes": 1783918,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-m365-migrations.png",
+      "sha256": "749e86764598032ed25c9701c5b64991f8557abb0449b057c74977d3e216aba6",
+      "bytes": 1586214,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-migration-planning.png",
+      "sha256": "4b7887223ea01e8dc9bf34a1463859dce285ab28e602008d5b8aefad46eb9802",
+      "bytes": 1773257,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-power-platform-logic-apps.png",
+      "sha256": "e7097d35147108c65e32bcb38d10633a6926382b0b13fd2156b9b736c5407966",
+      "bytes": 1746519,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-roadmaps-cloud-planning.png",
+      "sha256": "b3ce3da48f55cdc11c3acde5f438f18ec7df87773579784b08a519f07e497bb7",
+      "bytes": 1660378,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-roles-access-control.png",
+      "sha256": "96990a2286c7c84874a7ccfc981284fd46f6d3a6eb40a52fa19ebb54d3afba38",
+      "bytes": 1591848,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-second-brain.png",
+      "sha256": "09005fbd489c250a48234d6585a76c63d94b138658d43884a1f3a71e0a182217",
+      "bytes": 1601214,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/overview-cards/card-team-modernization.png",
+      "sha256": "20e9fe0b14e75e724d35595159abdf33d2ba21bd3690c6c06303fd4d222bd23d",
+      "bytes": 1726050,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/portrait/matt-scene.png",
+      "sha256": "5bab7aa3b901f55f80e608edbda48629257f936dcb00d7d4ee9656e004a86006",
+      "bytes": 1940395,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/agent-ready-websites.png",
+      "sha256": "8337490220344041b0b00dc409cd464dd9d25d942933d17a924355181edce80d",
+      "bytes": 1698381,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/agentic-systems-agents.png",
+      "sha256": "5661b064587e6f864cb2e5ed6a3aa961ec2b9a1f40cde6144e45472f9459f705",
+      "bytes": 1977480,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/azure-migrations.png",
+      "sha256": "9300d37f425c1718092b941cdc541dbc7c7cf45935ef50bfc2d4e9cd41d967a5",
+      "bytes": 1877341,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/cost-planning.png",
+      "sha256": "a3a83852acef4864886447e160e80b162e193cec781406bd49fbcefde67600d7",
+      "bytes": 1722703,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/custom-software-development.png",
+      "sha256": "a27b00b9ad2bfea2a895a4dde5f2a41d315f7f34857d35b8b9fbd6a9bd29a7ff",
+      "bytes": 1733401,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/data-migrations-flow.png",
+      "sha256": "e794cc2ab6dfda376de3422b447b09f683c33e1479067ad5ecbf34acd6951eb8",
+      "bytes": 1916741,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/devops-scaling.png",
+      "sha256": "d446d80f2ce3496b40ce9e2ed33e364ca3608cfb1994a82ae2ee8d834e3793fe",
+      "bytes": 1634497,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/information-governance.png",
+      "sha256": "53a119b0836d7f70c24c2ed20dc97494a324a15513be9e1a540e75cd65384d46",
+      "bytes": 1673215,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/intranet-collaboration.png",
+      "sha256": "b0bbabfdc761582a103664dd294cc6c4ae79bc01b0719d1615321c9e299ad7a3",
+      "bytes": 1449267,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/m365-migrations.png",
+      "sha256": "0516d0182d3ec15e011a3238aa3f013ab7454db49c412c4f502cb4681dce6325",
+      "bytes": 2007287,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/migration-planning.png",
+      "sha256": "4cfbd51895e83ed7f344fad0b31b81e668cc80a5f528b35ec856366ebe5fa078",
+      "bytes": 1704090,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/power-platform-logic-apps.png",
+      "sha256": "e83f754d5106ca715b5a8e2ae4e2db19de077c24c22638af4e611db204b23185",
+      "bytes": 1612249,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/roadmaps-cloud-planning.png",
+      "sha256": "c141dda744a6351fb0beab64239b58e88ba609193f6cddffeb64c21acde7b299",
+      "bytes": 1515213,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/roles-access-control.png",
+      "sha256": "1544015385a7e1269aec9a89a48b16e526c337df8361fc9c13ab5240b84d7c12",
+      "bytes": 1822979,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/second-brain-translucent-cortex.png",
+      "sha256": "3a8587fdb8f7bb7c80618c435222ea1adef61ce3b657cf83b76373a4ce554bc6",
+      "bytes": 2169682,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/team-modernization-team.png",
+      "sha256": "22cb92a51719cd9d426049814a731f59f41b29a63e00e21e8a5111811119570c",
+      "bytes": 1745179,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/service-hero/traditional-systems-shield.png",
+      "sha256": "39d9963f4c089ccccc4b6fa1142791854fdae5197198cb3f337e0e744eb31ab9",
+      "bytes": 1782257,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/starting-points/starting-point-cloud-security.png",
+      "sha256": "876ec13b558198613d23049b7ced0e81e5ce08a15913cec58d8b7cd643b788bd",
+      "bytes": 1660824,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/starting-points/starting-point-custom-agents.png",
+      "sha256": "b59ff636ec898f2d9f5c19857a86039c391d3fee0407bf327d955b3f0a7010a8",
+      "bytes": 1823569,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/starting-points/starting-point-m365-ai.png",
+      "sha256": "0a78827016eaeb5f9e60a876862c9fc2a85b80e45fc0d93fbea3c4a569ea9903",
+      "bytes": 1472170,
+      "role": "originals:original"
+    },
+    {
+      "destination": "assets/originals/starting-points/starting-point-rework.png",
+      "sha256": "ecf85f9cdf1189f0758b4646992abdfd3d108b23b5cdca8b0af541c40599f6c0",
+      "bytes": 1674741,
+      "role": "originals:original"
+    }
+  ],
+  "styleNames": {
+    "svg-flat": "SVG Flat",
+    "svg-outline": "SVG Outline",
+    "holographic": "Holographic",
+    "photorealistic": "Photorealistic",
+    "original": "Original reference",
+    "prototype": "Prototype",
+    "photograph": "Scene photograph",
+    "svg-glass": "Site Glass"
+  },
+  "counts": {
+    "collections": {
+      "diagrams": 0,
+      "icons": 0,
+      "originals": 41,
+      "scenes": 0,
+      "comics": 0,
+      "earlier": 0,
+      "experiments": 0
+    },
+    "diagramsByStyle": {
+      "svg-flat": {
+        "present": 0,
+        "missing": 0,
+        "statuses": {}
+      },
+      "svg-outline": {
+        "present": 0,
+        "missing": 0,
+        "statuses": {}
+      },
+      "holographic": {
+        "present": 0,
+        "missing": 0,
+        "statuses": {}
+      },
+      "photorealistic": {
+        "present": 0,
+        "missing": 0,
+        "statuses": {}
+      }
+    },
+    "iconsByStyle": {
+      "svg-flat": {
+        "present": 0,
+        "missing": 0,
+        "statuses": {}
+      },
+      "svg-outline": {
+        "present": 0,
+        "missing": 0,
+        "statuses": {}
+      },
+      "holographic": {
+        "present": 0,
+        "missing": 0,
+        "statuses": {}
+      },
+      "photorealistic": {
+        "present": 0,
+        "missing": 0,
+        "statuses": {}
+      }
+    },
+    "selectedOriginalReferences": 0,
+    "traditionalOriginals": 0,
+    "copiedFiles": 41,
+    "copiedBytes": 70070914,
+    "imageFiles": 41,
+    "evidenceImageFiles": 0
+  }
+}

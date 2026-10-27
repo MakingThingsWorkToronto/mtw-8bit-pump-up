@@ -1,0 +1,740 @@
+{
+  "overview-cards/card-second-brain": {
+    "src": "/images/_optimized/overview-cards/card-second-brain-1672.jpg?v=62d6bbf73d",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-second-brain-640.jpg?v=62d6bbf73d 640w, /images/_optimized/overview-cards/card-second-brain-1024.jpg?v=62d6bbf73d 1024w, /images/_optimized/overview-cards/card-second-brain-1672.jpg?v=62d6bbf73d 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-second-brain-640.avif?v=62d6bbf73d 640w, /images/_optimized/overview-cards/card-second-brain-1024.avif?v=62d6bbf73d 1024w, /images/_optimized/overview-cards/card-second-brain-1672.avif?v=62d6bbf73d 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-second-brain-640.webp?v=62d6bbf73d 640w, /images/_optimized/overview-cards/card-second-brain-1024.webp?v=62d6bbf73d 1024w, /images/_optimized/overview-cards/card-second-brain-1672.webp?v=62d6bbf73d 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-roles-access-control": {
+    "src": "/images/_optimized/overview-cards/card-roles-access-control-1672.jpg?v=66fdb83e31",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-roles-access-control-640.jpg?v=66fdb83e31 640w, /images/_optimized/overview-cards/card-roles-access-control-1024.jpg?v=66fdb83e31 1024w, /images/_optimized/overview-cards/card-roles-access-control-1672.jpg?v=66fdb83e31 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-roles-access-control-640.avif?v=66fdb83e31 640w, /images/_optimized/overview-cards/card-roles-access-control-1024.avif?v=66fdb83e31 1024w, /images/_optimized/overview-cards/card-roles-access-control-1672.avif?v=66fdb83e31 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-roles-access-control-640.webp?v=66fdb83e31 640w, /images/_optimized/overview-cards/card-roles-access-control-1024.webp?v=66fdb83e31 1024w, /images/_optimized/overview-cards/card-roles-access-control-1672.webp?v=66fdb83e31 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-m365-migrations": {
+    "src": "/images/_optimized/overview-cards/card-m365-migrations-1672.jpg?v=d1fc001d8d",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-m365-migrations-640.jpg?v=d1fc001d8d 640w, /images/_optimized/overview-cards/card-m365-migrations-1024.jpg?v=d1fc001d8d 1024w, /images/_optimized/overview-cards/card-m365-migrations-1672.jpg?v=d1fc001d8d 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-m365-migrations-640.avif?v=d1fc001d8d 640w, /images/_optimized/overview-cards/card-m365-migrations-1024.avif?v=d1fc001d8d 1024w, /images/_optimized/overview-cards/card-m365-migrations-1672.avif?v=d1fc001d8d 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-m365-migrations-640.webp?v=d1fc001d8d 640w, /images/_optimized/overview-cards/card-m365-migrations-1024.webp?v=d1fc001d8d 1024w, /images/_optimized/overview-cards/card-m365-migrations-1672.webp?v=d1fc001d8d 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-information-governance": {
+    "src": "/images/_optimized/overview-cards/card-information-governance-1672.jpg?v=faaf7dacb4",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-information-governance-640.jpg?v=faaf7dacb4 640w, /images/_optimized/overview-cards/card-information-governance-1024.jpg?v=faaf7dacb4 1024w, /images/_optimized/overview-cards/card-information-governance-1672.jpg?v=faaf7dacb4 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-information-governance-640.avif?v=faaf7dacb4 640w, /images/_optimized/overview-cards/card-information-governance-1024.avif?v=faaf7dacb4 1024w, /images/_optimized/overview-cards/card-information-governance-1672.avif?v=faaf7dacb4 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-information-governance-640.webp?v=faaf7dacb4 640w, /images/_optimized/overview-cards/card-information-governance-1024.webp?v=faaf7dacb4 1024w, /images/_optimized/overview-cards/card-information-governance-1672.webp?v=faaf7dacb4 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-power-platform-logic-apps": {
+    "src": "/images/_optimized/overview-cards/card-power-platform-logic-apps-1672.jpg?v=2cd0974675",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-power-platform-logic-apps-640.jpg?v=2cd0974675 640w, /images/_optimized/overview-cards/card-power-platform-logic-apps-1024.jpg?v=2cd0974675 1024w, /images/_optimized/overview-cards/card-power-platform-logic-apps-1672.jpg?v=2cd0974675 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-power-platform-logic-apps-640.avif?v=2cd0974675 640w, /images/_optimized/overview-cards/card-power-platform-logic-apps-1024.avif?v=2cd0974675 1024w, /images/_optimized/overview-cards/card-power-platform-logic-apps-1672.avif?v=2cd0974675 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-power-platform-logic-apps-640.webp?v=2cd0974675 640w, /images/_optimized/overview-cards/card-power-platform-logic-apps-1024.webp?v=2cd0974675 1024w, /images/_optimized/overview-cards/card-power-platform-logic-apps-1672.webp?v=2cd0974675 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-roadmaps-cloud-planning": {
+    "src": "/images/_optimized/overview-cards/card-roadmaps-cloud-planning-1672.jpg?v=bf97ad87c2",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-roadmaps-cloud-planning-640.jpg?v=bf97ad87c2 640w, /images/_optimized/overview-cards/card-roadmaps-cloud-planning-1024.jpg?v=bf97ad87c2 1024w, /images/_optimized/overview-cards/card-roadmaps-cloud-planning-1672.jpg?v=bf97ad87c2 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-roadmaps-cloud-planning-640.avif?v=bf97ad87c2 640w, /images/_optimized/overview-cards/card-roadmaps-cloud-planning-1024.avif?v=bf97ad87c2 1024w, /images/_optimized/overview-cards/card-roadmaps-cloud-planning-1672.avif?v=bf97ad87c2 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-roadmaps-cloud-planning-640.webp?v=bf97ad87c2 640w, /images/_optimized/overview-cards/card-roadmaps-cloud-planning-1024.webp?v=bf97ad87c2 1024w, /images/_optimized/overview-cards/card-roadmaps-cloud-planning-1672.webp?v=bf97ad87c2 1672w"
+      }
+    ]
+  },
+  "starting-points/starting-point-custom-agents": {
+    "src": "/images/_optimized/starting-points/starting-point-custom-agents-1672.jpg?v=a11d08d08f",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/starting-points/starting-point-custom-agents-640.jpg?v=a11d08d08f 640w, /images/_optimized/starting-points/starting-point-custom-agents-1024.jpg?v=a11d08d08f 1024w, /images/_optimized/starting-points/starting-point-custom-agents-1672.jpg?v=a11d08d08f 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 25vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/starting-points/starting-point-custom-agents-640.avif?v=a11d08d08f 640w, /images/_optimized/starting-points/starting-point-custom-agents-1024.avif?v=a11d08d08f 1024w, /images/_optimized/starting-points/starting-point-custom-agents-1672.avif?v=a11d08d08f 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/starting-points/starting-point-custom-agents-640.webp?v=a11d08d08f 640w, /images/_optimized/starting-points/starting-point-custom-agents-1024.webp?v=a11d08d08f 1024w, /images/_optimized/starting-points/starting-point-custom-agents-1672.webp?v=a11d08d08f 1672w"
+      }
+    ]
+  },
+  "starting-points/starting-point-m365-ai": {
+    "src": "/images/_optimized/starting-points/starting-point-m365-ai-1672.jpg?v=0b57fb2350",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/starting-points/starting-point-m365-ai-640.jpg?v=0b57fb2350 640w, /images/_optimized/starting-points/starting-point-m365-ai-1024.jpg?v=0b57fb2350 1024w, /images/_optimized/starting-points/starting-point-m365-ai-1672.jpg?v=0b57fb2350 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 25vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/starting-points/starting-point-m365-ai-640.avif?v=0b57fb2350 640w, /images/_optimized/starting-points/starting-point-m365-ai-1024.avif?v=0b57fb2350 1024w, /images/_optimized/starting-points/starting-point-m365-ai-1672.avif?v=0b57fb2350 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/starting-points/starting-point-m365-ai-640.webp?v=0b57fb2350 640w, /images/_optimized/starting-points/starting-point-m365-ai-1024.webp?v=0b57fb2350 1024w, /images/_optimized/starting-points/starting-point-m365-ai-1672.webp?v=0b57fb2350 1672w"
+      }
+    ]
+  },
+  "starting-points/starting-point-rework": {
+    "src": "/images/_optimized/starting-points/starting-point-rework-1672.jpg?v=d511bd6d93",
+    "width": 1672,
+    "height": 940,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/starting-points/starting-point-rework-640.jpg?v=d511bd6d93 640w, /images/_optimized/starting-points/starting-point-rework-1024.jpg?v=d511bd6d93 1024w, /images/_optimized/starting-points/starting-point-rework-1672.jpg?v=d511bd6d93 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 25vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/starting-points/starting-point-rework-640.avif?v=d511bd6d93 640w, /images/_optimized/starting-points/starting-point-rework-1024.avif?v=d511bd6d93 1024w, /images/_optimized/starting-points/starting-point-rework-1672.avif?v=d511bd6d93 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/starting-points/starting-point-rework-640.webp?v=d511bd6d93 640w, /images/_optimized/starting-points/starting-point-rework-1024.webp?v=d511bd6d93 1024w, /images/_optimized/starting-points/starting-point-rework-1672.webp?v=d511bd6d93 1672w"
+      }
+    ]
+  },
+  "starting-points/starting-point-cloud-security": {
+    "src": "/images/_optimized/starting-points/starting-point-cloud-security-1672.jpg?v=aa1f3af48a",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/starting-points/starting-point-cloud-security-640.jpg?v=aa1f3af48a 640w, /images/_optimized/starting-points/starting-point-cloud-security-1024.jpg?v=aa1f3af48a 1024w, /images/_optimized/starting-points/starting-point-cloud-security-1672.jpg?v=aa1f3af48a 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 25vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/starting-points/starting-point-cloud-security-640.avif?v=aa1f3af48a 640w, /images/_optimized/starting-points/starting-point-cloud-security-1024.avif?v=aa1f3af48a 1024w, /images/_optimized/starting-points/starting-point-cloud-security-1672.avif?v=aa1f3af48a 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/starting-points/starting-point-cloud-security-640.webp?v=aa1f3af48a 640w, /images/_optimized/starting-points/starting-point-cloud-security-1024.webp?v=aa1f3af48a 1024w, /images/_optimized/starting-points/starting-point-cloud-security-1672.webp?v=aa1f3af48a 1672w"
+      }
+    ]
+  },
+  "portrait/matt-scene": {
+    "src": "/images/_optimized/portrait/matt-scene-1672.jpg?v=8e1479b246",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/portrait/matt-scene-640.jpg?v=8e1479b246 640w, /images/_optimized/portrait/matt-scene-1024.jpg?v=8e1479b246 1024w, /images/_optimized/portrait/matt-scene-1672.jpg?v=8e1479b246 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 40vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/portrait/matt-scene-640.avif?v=8e1479b246 640w, /images/_optimized/portrait/matt-scene-1024.avif?v=8e1479b246 1024w, /images/_optimized/portrait/matt-scene-1672.avif?v=8e1479b246 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/portrait/matt-scene-640.webp?v=8e1479b246 640w, /images/_optimized/portrait/matt-scene-1024.webp?v=8e1479b246 1024w, /images/_optimized/portrait/matt-scene-1672.webp?v=8e1479b246 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-agent-ready-websites": {
+    "src": "/images/_optimized/overview-cards/card-agent-ready-websites-1672.jpg?v=0e8863ebf5",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-agent-ready-websites-640.jpg?v=0e8863ebf5 640w, /images/_optimized/overview-cards/card-agent-ready-websites-1024.jpg?v=0e8863ebf5 1024w, /images/_optimized/overview-cards/card-agent-ready-websites-1672.jpg?v=0e8863ebf5 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-agent-ready-websites-640.avif?v=0e8863ebf5 640w, /images/_optimized/overview-cards/card-agent-ready-websites-1024.avif?v=0e8863ebf5 1024w, /images/_optimized/overview-cards/card-agent-ready-websites-1672.avif?v=0e8863ebf5 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-agent-ready-websites-640.webp?v=0e8863ebf5 640w, /images/_optimized/overview-cards/card-agent-ready-websites-1024.webp?v=0e8863ebf5 1024w, /images/_optimized/overview-cards/card-agent-ready-websites-1672.webp?v=0e8863ebf5 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-custom-software-development": {
+    "src": "/images/_optimized/overview-cards/card-custom-software-development-1672.jpg?v=0eff67dd6a",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-custom-software-development-640.jpg?v=0eff67dd6a 640w, /images/_optimized/overview-cards/card-custom-software-development-1024.jpg?v=0eff67dd6a 1024w, /images/_optimized/overview-cards/card-custom-software-development-1672.jpg?v=0eff67dd6a 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-custom-software-development-640.avif?v=0eff67dd6a 640w, /images/_optimized/overview-cards/card-custom-software-development-1024.avif?v=0eff67dd6a 1024w, /images/_optimized/overview-cards/card-custom-software-development-1672.avif?v=0eff67dd6a 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-custom-software-development-640.webp?v=0eff67dd6a 640w, /images/_optimized/overview-cards/card-custom-software-development-1024.webp?v=0eff67dd6a 1024w, /images/_optimized/overview-cards/card-custom-software-development-1672.webp?v=0eff67dd6a 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-team-modernization": {
+    "src": "/images/_optimized/overview-cards/card-team-modernization-1672.jpg?v=6d6d390b7d",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-team-modernization-640.jpg?v=6d6d390b7d 640w, /images/_optimized/overview-cards/card-team-modernization-1024.jpg?v=6d6d390b7d 1024w, /images/_optimized/overview-cards/card-team-modernization-1672.jpg?v=6d6d390b7d 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-team-modernization-640.avif?v=6d6d390b7d 640w, /images/_optimized/overview-cards/card-team-modernization-1024.avif?v=6d6d390b7d 1024w, /images/_optimized/overview-cards/card-team-modernization-1672.avif?v=6d6d390b7d 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-team-modernization-640.webp?v=6d6d390b7d 640w, /images/_optimized/overview-cards/card-team-modernization-1024.webp?v=6d6d390b7d 1024w, /images/_optimized/overview-cards/card-team-modernization-1672.webp?v=6d6d390b7d 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-cost-planning": {
+    "src": "/images/_optimized/overview-cards/card-cost-planning-1672.jpg?v=90f11afc9f",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-cost-planning-640.jpg?v=90f11afc9f 640w, /images/_optimized/overview-cards/card-cost-planning-1024.jpg?v=90f11afc9f 1024w, /images/_optimized/overview-cards/card-cost-planning-1672.jpg?v=90f11afc9f 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-cost-planning-640.avif?v=90f11afc9f 640w, /images/_optimized/overview-cards/card-cost-planning-1024.avif?v=90f11afc9f 1024w, /images/_optimized/overview-cards/card-cost-planning-1672.avif?v=90f11afc9f 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-cost-planning-640.webp?v=90f11afc9f 640w, /images/_optimized/overview-cards/card-cost-planning-1024.webp?v=90f11afc9f 1024w, /images/_optimized/overview-cards/card-cost-planning-1672.webp?v=90f11afc9f 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-devops-scaling": {
+    "src": "/images/_optimized/overview-cards/card-devops-scaling-1672.jpg?v=37f5483e6a",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-devops-scaling-640.jpg?v=37f5483e6a 640w, /images/_optimized/overview-cards/card-devops-scaling-1024.jpg?v=37f5483e6a 1024w, /images/_optimized/overview-cards/card-devops-scaling-1672.jpg?v=37f5483e6a 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-devops-scaling-640.avif?v=37f5483e6a 640w, /images/_optimized/overview-cards/card-devops-scaling-1024.avif?v=37f5483e6a 1024w, /images/_optimized/overview-cards/card-devops-scaling-1672.avif?v=37f5483e6a 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-devops-scaling-640.webp?v=37f5483e6a 640w, /images/_optimized/overview-cards/card-devops-scaling-1024.webp?v=37f5483e6a 1024w, /images/_optimized/overview-cards/card-devops-scaling-1672.webp?v=37f5483e6a 1672w"
+      }
+    ]
+  },
+  "service-hero/agent-ready-websites": {
+    "src": "/images/_optimized/service-hero/agent-ready-websites-1672.jpg?v=45ef6606a6",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/agent-ready-websites-640.jpg?v=45ef6606a6 640w, /images/_optimized/service-hero/agent-ready-websites-1024.jpg?v=45ef6606a6 1024w, /images/_optimized/service-hero/agent-ready-websites-1672.jpg?v=45ef6606a6 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/agent-ready-websites-640.avif?v=45ef6606a6 640w, /images/_optimized/service-hero/agent-ready-websites-1024.avif?v=45ef6606a6 1024w, /images/_optimized/service-hero/agent-ready-websites-1672.avif?v=45ef6606a6 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/agent-ready-websites-640.webp?v=45ef6606a6 640w, /images/_optimized/service-hero/agent-ready-websites-1024.webp?v=45ef6606a6 1024w, /images/_optimized/service-hero/agent-ready-websites-1672.webp?v=45ef6606a6 1672w"
+      }
+    ]
+  },
+  "service-hero/agentic-systems-agents": {
+    "src": "/images/_optimized/service-hero/agentic-systems-agents-1672.jpg?v=ea35ee9501",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/agentic-systems-agents-640.jpg?v=ea35ee9501 640w, /images/_optimized/service-hero/agentic-systems-agents-1024.jpg?v=ea35ee9501 1024w, /images/_optimized/service-hero/agentic-systems-agents-1672.jpg?v=ea35ee9501 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/agentic-systems-agents-640.avif?v=ea35ee9501 640w, /images/_optimized/service-hero/agentic-systems-agents-1024.avif?v=ea35ee9501 1024w, /images/_optimized/service-hero/agentic-systems-agents-1672.avif?v=ea35ee9501 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/agentic-systems-agents-640.webp?v=ea35ee9501 640w, /images/_optimized/service-hero/agentic-systems-agents-1024.webp?v=ea35ee9501 1024w, /images/_optimized/service-hero/agentic-systems-agents-1672.webp?v=ea35ee9501 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-azure-migrations": {
+    "src": "/images/_optimized/overview-cards/card-azure-migrations-1672.jpg?v=6f4b41c7b2",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-azure-migrations-640.jpg?v=6f4b41c7b2 640w, /images/_optimized/overview-cards/card-azure-migrations-1024.jpg?v=6f4b41c7b2 1024w, /images/_optimized/overview-cards/card-azure-migrations-1672.jpg?v=6f4b41c7b2 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-azure-migrations-640.avif?v=6f4b41c7b2 640w, /images/_optimized/overview-cards/card-azure-migrations-1024.avif?v=6f4b41c7b2 1024w, /images/_optimized/overview-cards/card-azure-migrations-1672.avif?v=6f4b41c7b2 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-azure-migrations-640.webp?v=6f4b41c7b2 640w, /images/_optimized/overview-cards/card-azure-migrations-1024.webp?v=6f4b41c7b2 1024w, /images/_optimized/overview-cards/card-azure-migrations-1672.webp?v=6f4b41c7b2 1672w"
+      }
+    ]
+  },
+  "service-hero/azure-migrations": {
+    "src": "/images/_optimized/service-hero/azure-migrations-1672.jpg?v=643b6da2a4",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/azure-migrations-640.jpg?v=643b6da2a4 640w, /images/_optimized/service-hero/azure-migrations-1024.jpg?v=643b6da2a4 1024w, /images/_optimized/service-hero/azure-migrations-1672.jpg?v=643b6da2a4 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/azure-migrations-640.avif?v=643b6da2a4 640w, /images/_optimized/service-hero/azure-migrations-1024.avif?v=643b6da2a4 1024w, /images/_optimized/service-hero/azure-migrations-1672.avif?v=643b6da2a4 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/azure-migrations-640.webp?v=643b6da2a4 640w, /images/_optimized/service-hero/azure-migrations-1024.webp?v=643b6da2a4 1024w, /images/_optimized/service-hero/azure-migrations-1672.webp?v=643b6da2a4 1672w"
+      }
+    ]
+  },
+  "service-hero/cost-planning": {
+    "src": "/images/_optimized/service-hero/cost-planning-1672.jpg?v=10db85fe98",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/cost-planning-640.jpg?v=10db85fe98 640w, /images/_optimized/service-hero/cost-planning-1024.jpg?v=10db85fe98 1024w, /images/_optimized/service-hero/cost-planning-1672.jpg?v=10db85fe98 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/cost-planning-640.avif?v=10db85fe98 640w, /images/_optimized/service-hero/cost-planning-1024.avif?v=10db85fe98 1024w, /images/_optimized/service-hero/cost-planning-1672.avif?v=10db85fe98 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/cost-planning-640.webp?v=10db85fe98 640w, /images/_optimized/service-hero/cost-planning-1024.webp?v=10db85fe98 1024w, /images/_optimized/service-hero/cost-planning-1672.webp?v=10db85fe98 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-intranet-collaboration": {
+    "src": "/images/_optimized/overview-cards/card-intranet-collaboration-1672.jpg?v=fc44063202",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-intranet-collaboration-640.jpg?v=fc44063202 640w, /images/_optimized/overview-cards/card-intranet-collaboration-1024.jpg?v=fc44063202 1024w, /images/_optimized/overview-cards/card-intranet-collaboration-1672.jpg?v=fc44063202 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-intranet-collaboration-640.avif?v=fc44063202 640w, /images/_optimized/overview-cards/card-intranet-collaboration-1024.avif?v=fc44063202 1024w, /images/_optimized/overview-cards/card-intranet-collaboration-1672.avif?v=fc44063202 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-intranet-collaboration-640.webp?v=fc44063202 640w, /images/_optimized/overview-cards/card-intranet-collaboration-1024.webp?v=fc44063202 1024w, /images/_optimized/overview-cards/card-intranet-collaboration-1672.webp?v=fc44063202 1672w"
+      }
+    ]
+  },
+  "service-hero/custom-software-development": {
+    "src": "/images/_optimized/service-hero/custom-software-development-1672.jpg?v=b1892a4b90",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/custom-software-development-640.jpg?v=b1892a4b90 640w, /images/_optimized/service-hero/custom-software-development-1024.jpg?v=b1892a4b90 1024w, /images/_optimized/service-hero/custom-software-development-1672.jpg?v=b1892a4b90 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/custom-software-development-640.avif?v=b1892a4b90 640w, /images/_optimized/service-hero/custom-software-development-1024.avif?v=b1892a4b90 1024w, /images/_optimized/service-hero/custom-software-development-1672.avif?v=b1892a4b90 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/custom-software-development-640.webp?v=b1892a4b90 640w, /images/_optimized/service-hero/custom-software-development-1024.webp?v=b1892a4b90 1024w, /images/_optimized/service-hero/custom-software-development-1672.webp?v=b1892a4b90 1672w"
+      }
+    ]
+  },
+  "overview-cards/card-migration-planning": {
+    "src": "/images/_optimized/overview-cards/card-migration-planning-1672.jpg?v=249aa6df9f",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/overview-cards/card-migration-planning-640.jpg?v=249aa6df9f 640w, /images/_optimized/overview-cards/card-migration-planning-1024.jpg?v=249aa6df9f 1024w, /images/_optimized/overview-cards/card-migration-planning-1672.jpg?v=249aa6df9f 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 33vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/overview-cards/card-migration-planning-640.avif?v=249aa6df9f 640w, /images/_optimized/overview-cards/card-migration-planning-1024.avif?v=249aa6df9f 1024w, /images/_optimized/overview-cards/card-migration-planning-1672.avif?v=249aa6df9f 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/overview-cards/card-migration-planning-640.webp?v=249aa6df9f 640w, /images/_optimized/overview-cards/card-migration-planning-1024.webp?v=249aa6df9f 1024w, /images/_optimized/overview-cards/card-migration-planning-1672.webp?v=249aa6df9f 1672w"
+      }
+    ]
+  },
+  "service-hero/data-migrations-flow": {
+    "src": "/images/_optimized/service-hero/data-migrations-flow-1672.jpg?v=3788493b79",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/data-migrations-flow-640.jpg?v=3788493b79 640w, /images/_optimized/service-hero/data-migrations-flow-1024.jpg?v=3788493b79 1024w, /images/_optimized/service-hero/data-migrations-flow-1672.jpg?v=3788493b79 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/data-migrations-flow-640.avif?v=3788493b79 640w, /images/_optimized/service-hero/data-migrations-flow-1024.avif?v=3788493b79 1024w, /images/_optimized/service-hero/data-migrations-flow-1672.avif?v=3788493b79 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/data-migrations-flow-640.webp?v=3788493b79 640w, /images/_optimized/service-hero/data-migrations-flow-1024.webp?v=3788493b79 1024w, /images/_optimized/service-hero/data-migrations-flow-1672.webp?v=3788493b79 1672w"
+      }
+    ]
+  },
+  "service-hero/devops-scaling": {
+    "src": "/images/_optimized/service-hero/devops-scaling-1672.jpg?v=9b6e9c56a3",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/devops-scaling-640.jpg?v=9b6e9c56a3 640w, /images/_optimized/service-hero/devops-scaling-1024.jpg?v=9b6e9c56a3 1024w, /images/_optimized/service-hero/devops-scaling-1672.jpg?v=9b6e9c56a3 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/devops-scaling-640.avif?v=9b6e9c56a3 640w, /images/_optimized/service-hero/devops-scaling-1024.avif?v=9b6e9c56a3 1024w, /images/_optimized/service-hero/devops-scaling-1672.avif?v=9b6e9c56a3 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/devops-scaling-640.webp?v=9b6e9c56a3 640w, /images/_optimized/service-hero/devops-scaling-1024.webp?v=9b6e9c56a3 1024w, /images/_optimized/service-hero/devops-scaling-1672.webp?v=9b6e9c56a3 1672w"
+      }
+    ]
+  },
+  "service-hero/information-governance": {
+    "src": "/images/_optimized/service-hero/information-governance-1672.jpg?v=e31c14ba3e",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/information-governance-640.jpg?v=e31c14ba3e 640w, /images/_optimized/service-hero/information-governance-1024.jpg?v=e31c14ba3e 1024w, /images/_optimized/service-hero/information-governance-1672.jpg?v=e31c14ba3e 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/information-governance-640.avif?v=e31c14ba3e 640w, /images/_optimized/service-hero/information-governance-1024.avif?v=e31c14ba3e 1024w, /images/_optimized/service-hero/information-governance-1672.avif?v=e31c14ba3e 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/information-governance-640.webp?v=e31c14ba3e 640w, /images/_optimized/service-hero/information-governance-1024.webp?v=e31c14ba3e 1024w, /images/_optimized/service-hero/information-governance-1672.webp?v=e31c14ba3e 1672w"
+      }
+    ]
+  },
+  "service-hero/intranet-collaboration": {
+    "src": "/images/_optimized/service-hero/intranet-collaboration-1672.jpg?v=62cde59beb",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/intranet-collaboration-640.jpg?v=62cde59beb 640w, /images/_optimized/service-hero/intranet-collaboration-1024.jpg?v=62cde59beb 1024w, /images/_optimized/service-hero/intranet-collaboration-1672.jpg?v=62cde59beb 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/intranet-collaboration-640.avif?v=62cde59beb 640w, /images/_optimized/service-hero/intranet-collaboration-1024.avif?v=62cde59beb 1024w, /images/_optimized/service-hero/intranet-collaboration-1672.avif?v=62cde59beb 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/intranet-collaboration-640.webp?v=62cde59beb 640w, /images/_optimized/service-hero/intranet-collaboration-1024.webp?v=62cde59beb 1024w, /images/_optimized/service-hero/intranet-collaboration-1672.webp?v=62cde59beb 1672w"
+      }
+    ]
+  },
+  "journal/working-code-v8": {
+    "src": "/images/_optimized/journal/working-code-v8-1672.jpg?v=ccbf2b5880",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/journal/working-code-v8-640.jpg?v=ccbf2b5880 640w, /images/_optimized/journal/working-code-v8-1024.jpg?v=ccbf2b5880 1024w, /images/_optimized/journal/working-code-v8-1672.jpg?v=ccbf2b5880 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 50vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/journal/working-code-v8-640.avif?v=ccbf2b5880 640w, /images/_optimized/journal/working-code-v8-1024.avif?v=ccbf2b5880 1024w, /images/_optimized/journal/working-code-v8-1672.avif?v=ccbf2b5880 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/journal/working-code-v8-640.webp?v=ccbf2b5880 640w, /images/_optimized/journal/working-code-v8-1024.webp?v=ccbf2b5880 1024w, /images/_optimized/journal/working-code-v8-1672.webp?v=ccbf2b5880 1672w"
+      }
+    ]
+  },
+  "journal/working-code-v9": {
+    "src": "/images/_optimized/journal/working-code-v9-1672.jpg?v=9aba97001f",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/journal/working-code-v9-640.jpg?v=9aba97001f 640w, /images/_optimized/journal/working-code-v9-1024.jpg?v=9aba97001f 1024w, /images/_optimized/journal/working-code-v9-1672.jpg?v=9aba97001f 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 50vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/journal/working-code-v9-640.avif?v=9aba97001f 640w, /images/_optimized/journal/working-code-v9-1024.avif?v=9aba97001f 1024w, /images/_optimized/journal/working-code-v9-1672.avif?v=9aba97001f 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/journal/working-code-v9-640.webp?v=9aba97001f 640w, /images/_optimized/journal/working-code-v9-1024.webp?v=9aba97001f 1024w, /images/_optimized/journal/working-code-v9-1672.webp?v=9aba97001f 1672w"
+      }
+    ]
+  },
+  "journal/agents-build-tools-v2": {
+    "src": "/images/_optimized/journal/agents-build-tools-v2-1672.jpg?v=0a64a3cd0d",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/journal/agents-build-tools-v2-640.jpg?v=0a64a3cd0d 640w, /images/_optimized/journal/agents-build-tools-v2-1024.jpg?v=0a64a3cd0d 1024w, /images/_optimized/journal/agents-build-tools-v2-1672.jpg?v=0a64a3cd0d 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 50vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/journal/agents-build-tools-v2-640.avif?v=0a64a3cd0d 640w, /images/_optimized/journal/agents-build-tools-v2-1024.avif?v=0a64a3cd0d 1024w, /images/_optimized/journal/agents-build-tools-v2-1672.avif?v=0a64a3cd0d 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/journal/agents-build-tools-v2-640.webp?v=0a64a3cd0d 640w, /images/_optimized/journal/agents-build-tools-v2-1024.webp?v=0a64a3cd0d 1024w, /images/_optimized/journal/agents-build-tools-v2-1672.webp?v=0a64a3cd0d 1672w"
+      }
+    ]
+  },
+  "journal/document-rubric-v1": {
+    "src": "/images/_optimized/journal/document-rubric-v1-1672.jpg?v=2747ed4461",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/journal/document-rubric-v1-640.jpg?v=2747ed4461 640w, /images/_optimized/journal/document-rubric-v1-1024.jpg?v=2747ed4461 1024w, /images/_optimized/journal/document-rubric-v1-1672.jpg?v=2747ed4461 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 50vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/journal/document-rubric-v1-640.avif?v=2747ed4461 640w, /images/_optimized/journal/document-rubric-v1-1024.avif?v=2747ed4461 1024w, /images/_optimized/journal/document-rubric-v1-1672.avif?v=2747ed4461 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/journal/document-rubric-v1-640.webp?v=2747ed4461 640w, /images/_optimized/journal/document-rubric-v1-1024.webp?v=2747ed4461 1024w, /images/_optimized/journal/document-rubric-v1-1672.webp?v=2747ed4461 1672w"
+      }
+    ]
+  },
+  "journal/second-brain-owner-v2": {
+    "src": "/images/_optimized/journal/second-brain-owner-v2-1672.jpg?v=15dda9048f",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/journal/second-brain-owner-v2-640.jpg?v=15dda9048f 640w, /images/_optimized/journal/second-brain-owner-v2-1024.jpg?v=15dda9048f 1024w, /images/_optimized/journal/second-brain-owner-v2-1672.jpg?v=15dda9048f 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 50vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/journal/second-brain-owner-v2-640.avif?v=15dda9048f 640w, /images/_optimized/journal/second-brain-owner-v2-1024.avif?v=15dda9048f 1024w, /images/_optimized/journal/second-brain-owner-v2-1672.avif?v=15dda9048f 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/journal/second-brain-owner-v2-640.webp?v=15dda9048f 640w, /images/_optimized/journal/second-brain-owner-v2-1024.webp?v=15dda9048f 1024w, /images/_optimized/journal/second-brain-owner-v2-1672.webp?v=15dda9048f 1672w"
+      }
+    ]
+  },
+  "service-hero/m365-migrations": {
+    "src": "/images/_optimized/service-hero/m365-migrations-1672.jpg?v=9dffe9ba72",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/m365-migrations-640.jpg?v=9dffe9ba72 640w, /images/_optimized/service-hero/m365-migrations-1024.jpg?v=9dffe9ba72 1024w, /images/_optimized/service-hero/m365-migrations-1672.jpg?v=9dffe9ba72 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/m365-migrations-640.avif?v=9dffe9ba72 640w, /images/_optimized/service-hero/m365-migrations-1024.avif?v=9dffe9ba72 1024w, /images/_optimized/service-hero/m365-migrations-1672.avif?v=9dffe9ba72 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/m365-migrations-640.webp?v=9dffe9ba72 640w, /images/_optimized/service-hero/m365-migrations-1024.webp?v=9dffe9ba72 1024w, /images/_optimized/service-hero/m365-migrations-1672.webp?v=9dffe9ba72 1672w"
+      }
+    ]
+  },
+  "service-hero/migration-planning": {
+    "src": "/images/_optimized/service-hero/migration-planning-1672.jpg?v=1a13ed81a4",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/migration-planning-640.jpg?v=1a13ed81a4 640w, /images/_optimized/service-hero/migration-planning-1024.jpg?v=1a13ed81a4 1024w, /images/_optimized/service-hero/migration-planning-1672.jpg?v=1a13ed81a4 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/migration-planning-640.avif?v=1a13ed81a4 640w, /images/_optimized/service-hero/migration-planning-1024.avif?v=1a13ed81a4 1024w, /images/_optimized/service-hero/migration-planning-1672.avif?v=1a13ed81a4 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/migration-planning-640.webp?v=1a13ed81a4 640w, /images/_optimized/service-hero/migration-planning-1024.webp?v=1a13ed81a4 1024w, /images/_optimized/service-hero/migration-planning-1672.webp?v=1a13ed81a4 1672w"
+      }
+    ]
+  },
+  "service-hero/power-platform-logic-apps": {
+    "src": "/images/_optimized/service-hero/power-platform-logic-apps-1672.jpg?v=f1a67db4b3",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/power-platform-logic-apps-640.jpg?v=f1a67db4b3 640w, /images/_optimized/service-hero/power-platform-logic-apps-1024.jpg?v=f1a67db4b3 1024w, /images/_optimized/service-hero/power-platform-logic-apps-1672.jpg?v=f1a67db4b3 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/power-platform-logic-apps-640.avif?v=f1a67db4b3 640w, /images/_optimized/service-hero/power-platform-logic-apps-1024.avif?v=f1a67db4b3 1024w, /images/_optimized/service-hero/power-platform-logic-apps-1672.avif?v=f1a67db4b3 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/power-platform-logic-apps-640.webp?v=f1a67db4b3 640w, /images/_optimized/service-hero/power-platform-logic-apps-1024.webp?v=f1a67db4b3 1024w, /images/_optimized/service-hero/power-platform-logic-apps-1672.webp?v=f1a67db4b3 1672w"
+      }
+    ]
+  },
+  "service-hero/roadmaps-cloud-planning": {
+    "src": "/images/_optimized/service-hero/roadmaps-cloud-planning-1672.jpg?v=2f2454e295",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/roadmaps-cloud-planning-640.jpg?v=2f2454e295 640w, /images/_optimized/service-hero/roadmaps-cloud-planning-1024.jpg?v=2f2454e295 1024w, /images/_optimized/service-hero/roadmaps-cloud-planning-1672.jpg?v=2f2454e295 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/roadmaps-cloud-planning-640.avif?v=2f2454e295 640w, /images/_optimized/service-hero/roadmaps-cloud-planning-1024.avif?v=2f2454e295 1024w, /images/_optimized/service-hero/roadmaps-cloud-planning-1672.avif?v=2f2454e295 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/roadmaps-cloud-planning-640.webp?v=2f2454e295 640w, /images/_optimized/service-hero/roadmaps-cloud-planning-1024.webp?v=2f2454e295 1024w, /images/_optimized/service-hero/roadmaps-cloud-planning-1672.webp?v=2f2454e295 1672w"
+      }
+    ]
+  },
+  "service-hero/roles-access-control": {
+    "src": "/images/_optimized/service-hero/roles-access-control-1672.jpg?v=7fc58104f9",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/roles-access-control-640.jpg?v=7fc58104f9 640w, /images/_optimized/service-hero/roles-access-control-1024.jpg?v=7fc58104f9 1024w, /images/_optimized/service-hero/roles-access-control-1672.jpg?v=7fc58104f9 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/roles-access-control-640.avif?v=7fc58104f9 640w, /images/_optimized/service-hero/roles-access-control-1024.avif?v=7fc58104f9 1024w, /images/_optimized/service-hero/roles-access-control-1672.avif?v=7fc58104f9 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/roles-access-control-640.webp?v=7fc58104f9 640w, /images/_optimized/service-hero/roles-access-control-1024.webp?v=7fc58104f9 1024w, /images/_optimized/service-hero/roles-access-control-1672.webp?v=7fc58104f9 1672w"
+      }
+    ]
+  },
+  "service-hero/second-brain-translucent-cortex": {
+    "src": "/images/_optimized/service-hero/second-brain-translucent-cortex-1672.jpg?v=4216447614",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/second-brain-translucent-cortex-640.jpg?v=4216447614 640w, /images/_optimized/service-hero/second-brain-translucent-cortex-1024.jpg?v=4216447614 1024w, /images/_optimized/service-hero/second-brain-translucent-cortex-1672.jpg?v=4216447614 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/second-brain-translucent-cortex-640.avif?v=4216447614 640w, /images/_optimized/service-hero/second-brain-translucent-cortex-1024.avif?v=4216447614 1024w, /images/_optimized/service-hero/second-brain-translucent-cortex-1672.avif?v=4216447614 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/second-brain-translucent-cortex-640.webp?v=4216447614 640w, /images/_optimized/service-hero/second-brain-translucent-cortex-1024.webp?v=4216447614 1024w, /images/_optimized/service-hero/second-brain-translucent-cortex-1672.webp?v=4216447614 1672w"
+      }
+    ]
+  },
+  "service-hero/team-modernization-team": {
+    "src": "/images/_optimized/service-hero/team-modernization-team-1672.jpg?v=f13126f679",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/team-modernization-team-640.jpg?v=f13126f679 640w, /images/_optimized/service-hero/team-modernization-team-1024.jpg?v=f13126f679 1024w, /images/_optimized/service-hero/team-modernization-team-1672.jpg?v=f13126f679 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/team-modernization-team-640.avif?v=f13126f679 640w, /images/_optimized/service-hero/team-modernization-team-1024.avif?v=f13126f679 1024w, /images/_optimized/service-hero/team-modernization-team-1672.avif?v=f13126f679 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/team-modernization-team-640.webp?v=f13126f679 640w, /images/_optimized/service-hero/team-modernization-team-1024.webp?v=f13126f679 1024w, /images/_optimized/service-hero/team-modernization-team-1672.webp?v=f13126f679 1672w"
+      }
+    ]
+  },
+  "service-hero/traditional-systems-shield": {
+    "src": "/images/_optimized/service-hero/traditional-systems-shield-1672.jpg?v=a36d629a3a",
+    "width": 1672,
+    "height": 941,
+    "type": "image/jpeg",
+    "srcset": "/images/_optimized/service-hero/traditional-systems-shield-640.jpg?v=a36d629a3a 640w, /images/_optimized/service-hero/traditional-systems-shield-1024.jpg?v=a36d629a3a 1024w, /images/_optimized/service-hero/traditional-systems-shield-1672.jpg?v=a36d629a3a 1672w",
+    "sizes": "(max-width: 850px) calc(100vw - 50px), 45vw",
+    "sources": [
+      {
+        "type": "image/avif",
+        "srcset": "/images/_optimized/service-hero/traditional-systems-shield-640.avif?v=a36d629a3a 640w, /images/_optimized/service-hero/traditional-systems-shield-1024.avif?v=a36d629a3a 1024w, /images/_optimized/service-hero/traditional-systems-shield-1672.avif?v=a36d629a3a 1672w"
+      },
+      {
+        "type": "image/webp",
+        "srcset": "/images/_optimized/service-hero/traditional-systems-shield-640.webp?v=a36d629a3a 640w, /images/_optimized/service-hero/traditional-systems-shield-1024.webp?v=a36d629a3a 1024w, /images/_optimized/service-hero/traditional-systems-shield-1672.webp?v=a36d629a3a 1672w"
+      }
+    ]
+  }
+}

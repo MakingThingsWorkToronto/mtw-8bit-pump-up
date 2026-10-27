@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BeatComic from '../components/BeatComic.astro';
+import {tracklist} from '../data/beat-comics/tracklist';
+import {stories} from '../data/beat-comics/registry';
+export function getStaticPaths(){return tracklist.map(track=>({params:{track:track.path.replace(/^\/|\/$/g,'')},props:{track,story:stories.find(s=>s.track?.disc===track.disc&&s.track?.no===track.no)}}));}
+const {track,story}=Astro.props;if(!story)throw Error('Missing story '+track.path);
+const localPaths=new Set(tracklist.map(t=>t.path));
+function project(value:any,key=''):any{if(typeof value==='string'&&key==='href'&&value.startsWith('/')&&!localPaths.has(value.split(/[?#]/)[0])&&value.split(/[?#]/)[0]!=='/')return 'https://www.makingthings.work'+value;if(Array.isArray(value))return value.map(v=>project(v));if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([k,v])=>[k,project(v,k)]));return value;}
+const playerStory={...project(story),collapseTo:'#track-end'};
+---
+<BaseLayout title={track.title} description={'Disc '+track.disc+', track '+track.no+' of the 8-bit mixtape.'}><BeatComic story={playerStory}/><section class="page-column project-intro" id="track-end"><h1 class="hero-heading">{track.title}<span class="accent">.</span></h1><p>Disc {track.disc} · Track {track.no}</p><p><a href="/">Back to the playlist</a> · <a href={'https://www.makingthings.work'+(track.path==='/play/home/'?'/':track.path)}>Read the original page ↗</a></p><noscript><p>This visualization needs JavaScript. The playlist and original article are available above.</p></noscript></section></BaseLayout>

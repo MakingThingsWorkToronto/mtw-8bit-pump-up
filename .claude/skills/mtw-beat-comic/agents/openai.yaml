@@ -1,0 +1,4 @@
+interface:
+  display_name: "MTW Beat Comic"
+  short_description: "Cut a pixel motion comic to a song for a page or Journal entry"
+  default_prompt: "Use $mtw-beat-comic to turn this song and story into a Beat Comic, cut to the beat, and verify it. Read discussion/spec.md in full first."

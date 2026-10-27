@@ -1,0 +1,62 @@
+{
+  "agents-build-the-tools-they-work-with": {
+    "slug": "agents-build-the-tools-they-work-with",
+    "title": "Agents build the tools they work with",
+    "titleLead": "Agents build",
+    "titleAccent": "the tools they work with",
+    "standfirst": "Agents turn repeated work into tools, and some jobs become fully deterministic code. The tools give the model more reach than any traditional interface.",
+    "cover": {
+      "kind": "journal",
+      "id": "working-code-v8",
+      "alt": "A dark build room at night: a row of identical open laptops receding along a bench, cabled together and all showing the same progress bar, with server racks glowing teal behind."
+    }
+  },
+  "reference-code-makes-agent-builds-faster": {
+    "slug": "reference-code-makes-agent-builds-faster",
+    "title": "Reference code makes agent builds faster",
+    "titleLead": "Reference code",
+    "titleAccent": "makes agent builds faster",
+    "standfirst": "In my estimating work, a build with agents takes roughly a third of the time a human-only team needs and the code is better, because the working code the agents leave behind becomes the reference every later piece patterns off.",
+    "cover": {
+      "kind": "journal",
+      "id": "working-code-v9",
+      "alt": "Overhead view of hands typing on a laptop at night, its editor split into two panes of code with the same shape, beside a notebook sketch of boxes and arrows, a mug and a teal desk lamp."
+    }
+  },
+  "agents-report-is-not-evidence": {
+    "slug": "agents-report-is-not-evidence",
+    "title": "An agent's report is not evidence",
+    "titleLead": "An agent's report",
+    "titleAccent": "is not evidence",
+    "standfirst": "An agent will tell you, convincingly, that it finished. Build the checks around it so that claim never has to be believed.",
+    "cover": {
+      "kind": "journal",
+      "id": "agents-build-tools-v2",
+      "alt": "Over the shoulder of a person at a desk at night with two monitors: a dense agent session on the left and a column of four green checks on the right, lit by a desk lamp."
+    }
+  },
+  "every-generated-document-needs-a-rubric": {
+    "slug": "every-generated-document-needs-a-rubric",
+    "title": "Standardize document generation quality with a rubric",
+    "titleLead": "Standardize document generation quality",
+    "titleAccent": "with a rubric",
+    "standfirst": "AI can draft the documents a team writes over and over, and get better at it every week, once each document type has a rubric, an interview, and a person who dials the draft in and whose corrections teach it.",
+    "cover": {
+      "kind": "journal",
+      "id": "document-rubric-v1",
+      "alt": "Over the shoulder of a printer at a night inspection table, holding a loupe over a fresh proof sheet beside the approved master proof, a stopped press and unprinted paper behind."
+    }
+  },
+  "second-brain-needs-an-owner": {
+    "slug": "second-brain-needs-an-owner",
+    "title": "A second brain needs an owner to build it",
+    "titleLead": "A second brain",
+    "titleAccent": "needs an owner to build it",
+    "standfirst": "A second brain gets smarter every time it's used, as long as someone who knows the work decides what goes in.",
+    "cover": {
+      "kind": "journal",
+      "id": "second-brain-owner-v2",
+      "alt": "Over the shoulder of a lawyer at a desk at night, one hand flat on an open case file and the other on a laptop keyboard, lit only by a gooseneck lamp."
+    }
+  }
+}

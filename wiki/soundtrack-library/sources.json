@@ -1,0 +1,447 @@
+{
+  "about": "Exact credited music used by this experiment. Playback requires no provider account.",
+  "downloadsDir": "downloads",
+  "tracks": [
+    {
+      "id": "pixabay-143303",
+      "file": "pixabay-143303-retro.mp3",
+      "download": "the_mountain-retro-143303.mp3",
+      "provider": "Pixabay",
+      "title": "Retro",
+      "artist": "The_Mountain",
+      "source": "https://pixabay.com/music/synthwave-retro-143303/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "synthwave",
+      "published": "2023-03-21",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/about-matt/ (About Matt Beat Comic, Track 19)"
+      ]
+    },
+    {
+      "id": "pixabay-189258",
+      "file": "pixabay-189258-underground.mp3",
+      "download": "phonk_music-underground-189258.mp3",
+      "provider": "Pixabay",
+      "title": "Underground",
+      "artist": "phonk_music",
+      "source": "https://pixabay.com/music/beats-underground-189258/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "beats",
+      "published": "2024-02-05",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/traditional-systems/information-governance-ai-readiness/ (Information Governance & AI Readiness Beat Comic, Track 11)"
+      ]
+    },
+    {
+      "id": "pixabay-189615",
+      "file": "pixabay-189615-urban-poetry.mp3",
+      "download": "pumpupthemind-urban-poetry-189615.mp3",
+      "provider": "Pixabay",
+      "title": "Urban Poetry",
+      "artist": "Pumpupthemind",
+      "source": "https://pixabay.com/music/beats-urban-poetry-189615/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "beats",
+      "published": "2024-02-05",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/traditional-systems/intranet-collaboration/ (Intranet & Collaboration Beat Comic, Track 12)"
+      ]
+    },
+    {
+      "id": "pixabay-189919",
+      "file": "pixabay-189919-funky-boulevard.mp3",
+      "download": "pineapplemusic-funky-boulevard-189919.mp3",
+      "provider": "Pixabay",
+      "title": "Funky Boulevard",
+      "artist": "PineAppleMusic",
+      "source": "https://pixabay.com/music/funk-funky-boulevard-189919/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "funk",
+      "published": "2024-02-07",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/journal/second-brain-needs-an-owner/ (Journal Beat Comic, Disc 2 Track 01)"
+      ],
+      "gridQuestion": "2026-09-28 (Disc 2 Track 01 sub-agent): tempo 95 BPM confirmed from onsets; kicks and snares fit a first downbeat of 0.656 s better than the profiled 0.34 s. The story is cut to 0.34 s (beat numbers would not change). Confirm by ear with ?beat=tick."
+    },
+    {
+      "id": "pixabay-357226",
+      "file": "pixabay-357226-hard-type-beat-rap-instrumental-trap-rodeo.mp3",
+      "download": "alexastarzbeats-hard-type-beatrap-instrumentaltrap-rodeo-357226.mp3",
+      "provider": "Pixabay",
+      "title": "Hard Type Beat/Rap Instrumental/Trap - Rodeo",
+      "artist": "AlexaStarzBeats",
+      "source": "https://pixabay.com/music/beats-hard-type-beatrap-instrumentaltrap-rodeo-357226/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "beats",
+      "published": "2025-06-10",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/agentic-systems/ (Agentic Systems Beat Comic, Track 02)"
+      ]
+    },
+    {
+      "id": "pixabay-410806",
+      "file": "pixabay-410806-pump-it-up.mp3",
+      "download": "toucanmusic-pump-it-up-410806.mp3",
+      "provider": "Pixabay",
+      "title": "Pump It Up",
+      "artist": "Toucanmusic",
+      "source": "https://pixabay.com/music/upbeat-pump-it-up-410806/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "upbeat",
+      "published": "2025-09-29",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/traditional-systems/roadmaps-cloud-planning/ (Roadmaps & Cloud Planning Beat Comic, Track 10)"
+      ]
+    },
+    {
+      "id": "pixabay-436822",
+      "file": "pixabay-436822-symphonic-drift-phonk-03.mp3",
+      "download": "vjgalaxy-symphonic-drift-phonk-03-436822.mp3",
+      "provider": "Pixabay",
+      "title": "Symphonic Drift Phonk 03",
+      "artist": "vjgalaxy",
+      "source": "https://pixabay.com/music/upbeat-symphonic-drift-phonk-03-436822/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "upbeat",
+      "published": "2025-11-17",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/agentic-systems/agentic-devops-scaling/ (Agentic DevOps & Scaling Beat Comic, Track 06)"
+      ]
+    },
+    {
+      "id": "pixabay-436825",
+      "file": "pixabay-436825-drift-phonk-01.mp3",
+      "download": "vjgalaxy-drift-phonk-01-436825.mp3",
+      "provider": "Pixabay",
+      "title": "Drift Phonk 01",
+      "artist": "vjgalaxy",
+      "source": "https://pixabay.com/music/upbeat-drift-phonk-01-436825/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "upbeat",
+      "published": "2025-11-17",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/traditional-systems/power-platform-logic-apps/ (Power Platform & Logic Apps Beat Comic, Track 13)"
+      ]
+    },
+    {
+      "id": "pixabay-451178",
+      "file": "pixabay-451178-comic-trouble-in-the-village-mischief-background.mp3",
+      "download": "desifreemusic-comic-trouble-in-the-village-mischief-background-451178.mp3",
+      "provider": "Pixabay",
+      "title": "Comic Trouble in the Village – Mischief Background",
+      "artist": "DesiFreeMusic",
+      "source": "https://pixabay.com/music/happy-childrens-tunes-comic-trouble-in-the-village-mischief-background-451178/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "happy-childrens-tunes",
+      "published": "2025-12-17",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/agentic-systems/agentic-team-modernization/ (Agentic Team Modernization Beat Comic, Track 04)"
+      ]
+    },
+    {
+      "id": "pixabay-462905",
+      "file": "pixabay-462905-melody-of-my-soul.mp3",
+      "download": "playsound-melody-of-my-soul-462905.mp3",
+      "provider": "Pixabay",
+      "title": "Melody of my soul",
+      "artist": "Playsound",
+      "source": "https://pixabay.com/music/beats-melody-of-my-soul-462905/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "beats",
+      "published": "2026-01-09",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/agentic-systems/second-brain/ (Second Brain Beat Comic, Track 03)"
+      ]
+    },
+    {
+      "id": "pixabay-462908",
+      "file": "pixabay-462908-work-harder.mp3",
+      "download": "playsound-work-harder-462908.mp3",
+      "provider": "Pixabay",
+      "title": "Work harder",
+      "artist": "Playsound",
+      "source": "https://pixabay.com/music/trap-work-harder-462908/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "trap",
+      "published": "2026-01-09",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/journal/agents-build-the-tools-they-work-with/ (Journal Beat Comic, Disc 2 Track 02)"
+      ]
+    },
+    {
+      "id": "pixabay-480944",
+      "file": "pixabay-480944-dark-circus.mp3",
+      "download": "top_sue-dark-circus-480944.mp3",
+      "provider": "Pixabay",
+      "title": "Dark Circus",
+      "artist": "TOP_SUE",
+      "source": "https://pixabay.com/music/circus-dark-circus-480944/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "circus",
+      "published": "2026-02-10",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "grid": {
+        "bpm": 140,
+        "offset": 0.335,
+        "meter": 3,
+        "by": "Claude (Track 17 sub-agent), 2026-09-28, onset comb: kick, snare and hat onsets peak at 140.00 BPM, kicks repeat every 3 beats (a waltz, 3/4), loudness in rows of 12 lines up; the detected 134.37 BPM slipped a beat every 40",
+        "confirmedByEar": false
+      },
+      "usedBy": [
+        "/data-migrations/m365-migrations/ (M365 Migrations Beat Comic, Track 17)"
+      ]
+    },
+    {
+      "id": "pixabay-481598",
+      "file": "pixabay-481598-lemmino-free-rap-beat.mp3",
+      "download": "krim3s-lemmino-free-rap-beat-481598.mp3",
+      "provider": "Pixabay",
+      "title": "LEMMINO [FREE RAP BEAT]",
+      "artist": "KRIM3S",
+      "source": "https://pixabay.com/music/rap-lemmino-free-rap-beat-481598/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "rap",
+      "published": "2026-02-10",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/traditional-systems/roles-access-control/ (Roles & Access Control Beat Comic, Track 09)"
+      ],
+      "grid": {
+        "bpm": 76.535,
+        "offset": 0.041,
+        "by": "Claude (Track 09 sub-agent), 2026-09-28, from the profile: drum onsets sit on a 0.196 s grid and loudness repeats every 16 beats at 76.535 BPM (half-time trap); the detected 100.41 BPM repeated every 21 beats",
+        "confirmedByEar": false
+      }
+    },
+    {
+      "id": "pixabay-485508",
+      "file": "pixabay-485508-goodbye-free-rap-beat.mp3",
+      "download": "aexbeats-goodbye_free-rap-beat-485508.mp3",
+      "provider": "Pixabay",
+      "title": "Goodbye_[[FREE]] Rap Beat",
+      "artist": "AEXBEATS",
+      "source": "https://pixabay.com/music/rap-goodbye-free-rap-beat-485508/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "rap",
+      "published": "2026-02-17",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/traditional-systems/custom-software-development/ (Custom Software Development Beat Comic, Track 14)"
+      ]
+    },
+    {
+      "id": "pixabay-521971",
+      "file": "pixabay-521971-the-creepy-circus.mp3",
+      "download": "astronautflute-the-creepy-circus-521971.mp3",
+      "provider": "Pixabay",
+      "title": "The Creepy Circus",
+      "artist": "AstronautFlute",
+      "source": "https://pixabay.com/music/circus-the-creepy-circus-521971/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "circus",
+      "published": "2026-05-08",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/agentic-systems/agentic-cost-planning/ (Agentic Cost Planning Beat Comic, Track 05)"
+      ]
+    },
+    {
+      "id": "pixabay-527076",
+      "file": "pixabay-527076-rap-rap-beat-beats-music.mp3",
+      "download": "prettyjohn1-rap-rap-beat-beats-music-527076.mp3",
+      "provider": "Pixabay",
+      "title": "Rap - Rap Beat Beats Music",
+      "artist": "prettyjohn1",
+      "source": "https://pixabay.com/music/alternative-hip-hop-rap-rap-beat-beats-music-527076/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "alternative-hip-hop",
+      "published": "2026-05-19",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/journal/reference-code-makes-agent-builds-faster/ (Journal Beat Comic, Disc 2 Track 04)"
+      ]
+    },
+    {
+      "id": "pixabay-531530",
+      "file": "pixabay-531530-street47-rap-battle-free-rap-beat.mp3",
+      "download": "aexbeats-street47-rap-battle-free-rap-beat-531530.mp3",
+      "provider": "Pixabay",
+      "title": "Street47 Rap Battle [[FREE]] Rap Beat",
+      "artist": "AEXBEATS",
+      "source": "https://pixabay.com/music/beats-street47-rap-battle-free-rap-beat-531530/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "beats",
+      "published": "2026-05-26",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/agentic-systems/agent-ready-websites/ (Agent-Ready Websites Beat Comic, Track 07)"
+      ]
+    },
+    {
+      "id": "pixabay-544063",
+      "file": "pixabay-544063-detroit-rapper.mp3",
+      "download": "matthewmikemusic-detroit-rapper-544063.mp3",
+      "provider": "Pixabay",
+      "title": "Detroit Rapper",
+      "artist": "matthewmikemusic",
+      "source": "https://pixabay.com/music/beats-detroit-rapper-544063/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "beats",
+      "published": "2026-06-15",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/traditional-systems/ (Traditional Systems Beat Comic, Track 08)"
+      ]
+    },
+    {
+      "id": "pixabay-556625",
+      "file": "pixabay-556625-funky-rock-groove.mp3",
+      "download": "watermel0n-funky-rock-groove-556625.mp3",
+      "provider": "Pixabay",
+      "title": "Funky Rock Groove",
+      "artist": "-WATERMEL0N-",
+      "source": "https://pixabay.com/music/rock-funky-rock-groove-556625/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "rock",
+      "published": "2026-07-01",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "grid": {
+        "bpm": 95.05,
+        "offset": 0.045,
+        "by": "Claude (Track 16 sub-agent), 2026-09-28, from the profile: drum onsets repeat every 2.525 s (one bar) and 5.05 s (two bars); kick on 1, snares on 2 and 4 at 95.05 BPM; the detected 124.68 BPM put loudness dips 21 beats apart",
+        "confirmedByEar": false
+      },
+      "usedBy": [
+        "/data-migrations/migration-planning/ (Migration Planning Beat Comic, Track 16)"
+      ]
+    },
+    {
+      "id": "pixabay-558083",
+      "file": "pixabay-558083-dramatic-rock.mp3",
+      "download": "playsound-dramatic-rock-558083.mp3",
+      "provider": "Pixabay",
+      "title": "Dramatic Rock",
+      "artist": "Playsound",
+      "source": "https://pixabay.com/music/rock-dramatic-rock-558083/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "rock",
+      "published": "2026-07-01",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/data-migrations/azure-migrations/ (Azure Migrations Beat Comic, Track 18)"
+      ],
+      "gridQuestion": "2026-09-28 (Track 18 sub-agent): tempo 108 BPM confirmed from onsets; the first downbeat may be 0.05 s rather than the profiled 0.43 s (next candidates 0.328 or 0.606 s). The story is cut to 0.43 s. Confirm by ear with ?beat=tick before recording a checked grid."
+    },
+    {
+      "id": "pixabay-577788",
+      "file": "pixabay-577788-rap-beat.mp3",
+      "download": "soundsurfer-rap-beat-577788.mp3",
+      "provider": "Pixabay",
+      "title": "Rap - Beat",
+      "artist": "SoundSurfer",
+      "source": "https://pixabay.com/music/beats-rap-beat-577788/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "beats",
+      "published": "2026-08-03",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "grid": {
+        "bpm": 93.05,
+        "offset": 0.03,
+        "by": "Claude (Disc 2 Track 05 sub-agent), 2026-09-28: drum hits lock to an eighth-note pulse at 186.05-186.1 BPM, beats at 0.03 s + n x 0.6448 s; sections change every 16 beats on that grid; the profiled downbeat (0.515 s) was three quarters of a beat late",
+        "confirmedByEar": false
+      },
+      "usedBy": [
+        "/journal/agents-report-is-not-evidence/ (Journal Beat Comic, Disc 2 Track 05)"
+      ]
+    },
+    {
+      "id": "pixabay-593046",
+      "file": "pixabay-593046-funk-rhythm.mp3",
+      "download": "atlasaudio-funk-rhythm-593046.mp3",
+      "provider": "Pixabay",
+      "title": "Funk Rhythm",
+      "artist": "AtlasAudio",
+      "source": "https://pixabay.com/music/funk-funk-rhythm-593046/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "funk",
+      "published": "2026-09-01",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/data-migrations/ (Data & Migrations Beat Comic, Track 15)"
+      ]
+    },
+    {
+      "id": "pixabay-603572",
+      "file": "pixabay-603572-funk-music.mp3",
+      "download": "bearstockmusic-funk-music-603572.mp3",
+      "provider": "Pixabay",
+      "title": "Funk Music",
+      "artist": "bearstockmusic",
+      "source": "https://pixabay.com/music/funk-funk-music-603572/",
+      "license": "Pixabay Content License",
+      "licenseUrl": "https://pixabay.com/service/license-summary/",
+      "genre": "funk",
+      "published": "2026-09-20",
+      "approved": "2026-09-26",
+      "status": "approved",
+      "usedBy": [
+        "/journal/every-generated-document-needs-a-rubric/ (Journal Beat Comic, Disc 2 Track 03)"
+      ]
+    }
+  ]
+}

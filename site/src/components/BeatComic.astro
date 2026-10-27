@@ -1,0 +1,114 @@
+---
+// Beat Comic (skill: mtw-beat-comic). A full-screen, looping motion comic over a page's static hero, cut to a song: an
+// old-school comic fused into the Grid Background's pixels. Pages of flat panels are inked by a vector pen, imagery and
+// type are pixelated and posterized to the brand's flat colours, narration types into teal caption boxes, chapter cards
+// flash on the teal banner, and pixel SFX slabs hit on the song's accents; embers rise off the grid like a campfire.
+// Freezes land on the song's dead stops. The first scroll, key or swipe, or Skip Intro, folds the stage into the page's
+// hero panel (story.collapseTo). Music plays by default with a credit tag that links to the track.
+//
+// Decorative duplicate (aria-hidden): the page's real text is its static hero and sections. The story is data
+// (src/data/beat-comics/*.ts, schema in types.ts); public/scripts/beat-comic.js plays it; styles/beat-comic.css.
+// First used on Homepage B (Matt, 2026-09-26).
+import type { BeatComicStory } from '../data/beat-comics/types';
+import '../styles/beat-comic.css';
+import MotionToolbar from './MotionToolbar.astro';
+import MotionProgress from './MotionProgress.astro';
+import { trackLabel } from '../data/beat-comics/tracklist';
+
+interface Props { story: BeatComicStory }
+const { story } = Astro.props;
+// A panel carries links when it has an href, or tracklist rows that do.
+const linked = (d: BeatComicStory['pages'][number]['panels'][number]) => !!d.href || !!(d.tracks && d.tracks.rows.some((r) => r.href));
+// A full-bleed close (a Journal entry, About Matt): the hero image edge to edge behind one flowing heading, as the page's
+// own hero sets it (closeScene.layout; the engine gives it the page hero's crop, size and place).
+const cs = story.closeScene, bleed = cs.layout === 'full-bleed' && !!cs.image;
+---
+<script is:inline>
+  // Armed before first paint, only when the reel can play: motion allowed and not ?reel=off. While armed, the scroll
+  // reveal holds (its page-transition gate), so the static hero types in when the reel collapses. If the engine never
+  // arrives, the reel disarms itself so the page is never left covered.
+  (function () {
+    var r = document.documentElement, q = location.search;
+    if (/[?&]reel=off\b/.test(q) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    r.setAttribute('data-reel', 'play');
+    r.setAttribute('data-mtw-reveal', '');
+    // Disarm only if the engine has not started once the page has fully loaded (a slow connection is not a failure).
+    window.addEventListener('load', function () { setTimeout(function () { if (!window.MTWBeatComic) { r.setAttribute('data-reel', 'done'); r.removeAttribute('data-mtw-reveal'); } }, 1500); });
+  })();
+</script>
+<div class="reel" data-reel-stage>
+  <div class="rl-ground" aria-hidden="true"></div>
+  <canvas class="rl-back" aria-hidden="true"></canvas>
+  <div class="rl-scenes" aria-hidden="true">
+    <div class="rl-book"></div>
+    <div class:list={['rl-close', { 'rl-close--bleed': bleed }]}>
+      {bleed && cs.image && <figure class="rl-close__bleed"><img src={cs.image.src} width={cs.image.width} height={cs.image.height} alt="" /></figure>}
+      <div class="rl-close__grid">
+        <div>
+          {bleed ? (
+            <p class="rl-hero-h">{cs.lines[0]} <span class="accent">{cs.lines[1]}</span></p>
+          ) : (
+            <>
+              <p class="rl-hero-h">{cs.lines[0]}</p>
+              <p class="rl-hero-h accent">{cs.lines[1]}</p>
+            </>
+          )}
+          {cs.lede && <p class="rl-close__lede">{cs.lede}</p>}
+        </div>
+        {bleed ? null : story.closeScene.image ? (
+          <figure class="rl-close__art"><img src={story.closeScene.image.src} width={story.closeScene.image.width} height={story.closeScene.image.height} alt="" /></figure>
+        ) : story.closeScene.panelLead && (
+          <div class="rl-close__panel">
+            <p class="rl-close__h3">{story.closeScene.panelLead} <span class="accent">{story.closeScene.panelAccent}</span></p>
+            <p>{story.closeScene.panelText}</p>
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+  <canvas class="rl-front" aria-hidden="true"></canvas>
+  {/* The ways in (Matt, 2026-09-28: "link the ways in boxes to their sections, so a user can click through"): each
+      panel with an `href` gets a real link, outside the aria-hidden scenes, laid over its panel. A service cell's link
+      text is the service's name, invisible until hover or focus lights the cell's name bar; an image panel without a name
+      bar (the "Your turn." starting points) is named by its caption, and hover or focus lights its caption box. The
+      engine places each link on its panel, moves it with the page's camera, and lets it be clicked or focused only while
+      the panel shows. */}
+  {/* A tracklist panel (`tracks`, the homepage cover) links each of its rows the same way: one link per row with an
+      `href`, named "Track nn: title" (a disc label by its title), laid over the row the engine draws. */}
+  {story.pages.some((pg) => pg.panels.some(linked)) && (
+    <nav class="rl-links" aria-label={story.pages.some((pg) => pg.panels.some((d) => d.tracks)) ? 'Tracklist and services' : 'Services'}>
+      {story.pages.map((pg, pi) => pg.panels.some(linked) && (
+        <div class="rl-links__page" data-page={pi}>
+          {pg.panels.map((d, ki) => d.href && <a class={d.name ? 'rl-link' : 'rl-link rl-link--cap'} href={d.href} data-panel={ki}><span>{d.name || d.cap}</span></a>)}
+          {pg.panels.map((d, ki) => d.tracks && d.tracks.rows.map((row, ri) => row.href && <a class="rl-link rl-link--row" href={row.href} data-panel={ki} data-row={ri}><span>{row.no ? `${trackLabel({ disc: row.discNo, no: row.no })}: ${row.title}` : row.title}</span></a>))}
+        </div>
+      ))}
+    </nav>
+  )}
+  {story.highScores && (
+    <nav class="rl-scores" aria-label="High scores" hidden>
+      <p class="rl-scores__h">High scores</p>
+      <ol class="rl-scores__list">
+        {story.highScores.entries.map((e) => (
+          <li><a href={e.href} data-score={e.score}><span class="rl-scores__rank"></span><span class="rl-scores__num">{String(e.score).padStart(7, '0')}</span><span class="rl-scores__who"><b>{e.player}</b><small>{e.service}</small></span></a></li>
+        ))}
+      </ol>
+    </nav>
+  )}
+  {/* The motion toolbar (MotionToolbar.astro; Matt, 2026-09-28: "this toolbar shall be canonical in all motion graphic
+      experiences"): Let's Talk, Tracklist, Previous track, Pause/Play, Next track, Skip Intro, then this comic's music
+      tag (the engine drives it: the credit, the equalizer, mute and "Tap for sound"). */}
+  <MotionToolbar>
+    <div class="rl-tag is-open">
+      <button class="rl-tag__mute" type="button" aria-pressed="false" aria-label="Mute music" data-tactile="press">
+        <span class="rl-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <svg class="rl-tag__off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" /><path d="M16 9l5 6M21 9l-5 6" fill="none" stroke="currentColor" stroke-width="1.6" /></svg>
+      </button>
+      <span class="rl-tag__cta" aria-hidden="true">Tap for sound</span>
+      <a class="rl-tag__credit" href={story.music.source} rel="noopener" target="_blank">{story.music.credit}</a>
+    </div>
+  </MotionToolbar>
+  <MotionProgress class="rl-progress" label="8-bit playback position" />
+</div>
+<script type="application/json" id="reel-story" set:html={JSON.stringify(story)}></script>
+<script is:inline src="/scripts/beat-comic.js" defer></script>

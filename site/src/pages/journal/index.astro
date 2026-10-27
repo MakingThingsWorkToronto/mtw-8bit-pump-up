@@ -1,0 +1,7 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import {discs as allDiscs} from '../../data/beat-comics/tracklist';
+const discs=allDiscs.filter(d=>d.no===2);
+---
+<BaseLayout title="8-bit pump up" description="A mixtape of 24 pixel animations cut to music."><section class="page-column project-intro"><h1 class="hero-heading">Journal <span class="accent">mixtape.</span></h1><p>Pick a track. Follow the playlist. Music starts after your first tap or click.</p>{discs.map(d=><section aria-labelledby={'disc-'+d.no}><h2 id={'disc-'+d.no}>{d.title}</h2><ol>{d.tracks.map(t=><li><a href={t.path}><span>{t.no}</span> {t.title}</a></li>)}</ol></section>)}<p><a href="https://comics.makingthings.work/">Read the illustrated comics ↗</a></p></section></BaseLayout>
+<style>ol{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}li a{display:flex;gap:20px;border-bottom:1px solid #28565c;padding:18px 0;color:var(--paper);text-decoration:none}li a:hover,li a:focus-visible{color:var(--teal-light)}li span{color:var(--teal-light);font-variant-numeric:tabular-nums}h2{margin-top:48px}@media(max-width:650px){ol{grid-template-columns:1fr}}</style>
